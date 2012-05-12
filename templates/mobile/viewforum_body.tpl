@@ -14,12 +14,12 @@
 
 <div class="block-empty">
 	<!-- IF PAGINATION -->{PAGE_NUMBER} {PAGINATION}<br /><!-- ENDIF -->
-	<!-- IF not S_BOT --><a href="{U_POST_NEW_TOPIC}" class="gradient link">{L_POST_NEW_TOPIC}</a><!-- ENDIF -->
+	<!-- IF not S_BOT --><a href="{U_POST_NEW_TOPIC}" class="btn gradient btn-large">{L_POST_NEW_TOPIC}</a><!-- ENDIF -->
 </div>
 
 <form method="post" action="{S_POST_DAYS_ACTION}" style="display: inline;">
 <!-- BEGIN topicrow -->
-<div class="forum<!-- IF topicrow.CLASS_NEW --> forum{topicrow.CLASS_NEW}<!-- ENDIF -->" onclick="document.location.href='{topicrow.U_VIEW_TOPIC}'; return false;">
+<div class="forum well<!-- IF topicrow.CLASS_NEW --> forum{topicrow.CLASS_NEW}<!-- ENDIF -->" onclick="document.location.href='{topicrow.U_VIEW_TOPIC}'; return false;">
 	<p><a href="{topicrow.U_VIEW_TOPIC}" class="{topicrow.TOPIC_CLASS}">{topicrow.TOPIC_TITLE}</a></p>
 	<!-- IF topicrow.GOTO_PAGE_FULL --><p>{topicrow.GOTO_PAGE_FULL}</p><!-- ENDIF -->
 	<p><span class="extra">{topicrow.REPLIES}</span> {topicrow.LAST_POST_TIME}</p>
@@ -38,8 +38,9 @@
 <!-- IF not S_BOT -->
 <div class="block-empty">
 	<!-- IF PAGINATION -->{PAGE_NUMBER} {PAGINATION}<br /><!-- ENDIF -->
-	<a href="{U_POST_NEW_TOPIC}" class="gradient link">{L_POST_NEW_TOPIC}</a>
+	<a href="{U_POST_NEW_TOPIC}" class="btn gradient btn-large">{L_POST_NEW_TOPIC}</a>
 </div>
+
 <!-- ENDIF -->
 
 <!-- INCLUDE overall_footer.tpl -->

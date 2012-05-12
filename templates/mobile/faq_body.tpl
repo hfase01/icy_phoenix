@@ -5,7 +5,7 @@ $this->vars['_TITLE'] = $this->vars['L_FAQ_TITLE'];
 
 
 <!-- BEGIN faq_block -->
-<div class="block">
+<div class="block well">
 	<h2>{faq_block.BLOCK_TITLE}</h2>
 	<ul class="sitemap">
 	<!-- BEGIN faq_row -->

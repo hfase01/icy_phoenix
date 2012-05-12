@@ -5,11 +5,15 @@
 {BOTTOM_HTML_BLOCK}
 
 <!-- IF not S_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
-
 </div>
-<div id="page-footer" class="gradient">
-<p class="left">{COPYRIGHT_LINK}</p>
-<p class="right"><!-- IF S_MOBILE -->{MOBILE_STYLE}<!-- ENDIF -->{TEMPLATE_COPYRIGHT_LINK}</p>
+<div class="navbar navbar-fixed-bottom">
+	<div class="navbar-inner">
+		<div class="container-fluid">
+		<p class="left brand">{COPYRIGHT_LINK}</p>
+		<p class="right"><!-- IF S_MOBILE -->{MOBILE_STYLE}<!-- ENDIF -->{TEMPLATE_COPYRIGHT_LINK}</p>
+		</div>
+	</div>
+</div>
 </div>
 </body>
 </html>
