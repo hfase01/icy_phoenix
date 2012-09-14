@@ -23,7 +23,7 @@ function submitform()
 			<!-- END rate_row -->
 			<!-- END rerate_link -->
 			<!-- BEGIN rerate -->
-			{rerate.S_RATE_SELECT}&nbsp;<input type="submit" value="{rerate.L_RATE}" class="liteoption" />{rerate.RATE_TOPIC_USER}
+			{rerate.S_RATE_SELECT}&nbsp;<input type="submit" value="{rerate.L_RATE}" class="btn-small" />{rerate.RATE_TOPIC_USER}
 			<!-- END rerate -->
 
 			<!-- BEGIN rate -->
@@ -36,7 +36,7 @@ function submitform()
 			<!-- END rate_row -->
 			<!-- END rate_link -->
 			<!-- BEGIN rate -->
-			{rate.S_RATE_SELECT}&nbsp;<input type="submit" value="{rate.L_RATE}" class="liteoption" />
+			{rate.S_RATE_SELECT}&nbsp;<input type="submit" value="{rate.L_RATE}" class="btn-small" />
 			{rate.RATE_TOPIC_USER}
 			<!-- END rate -->
 

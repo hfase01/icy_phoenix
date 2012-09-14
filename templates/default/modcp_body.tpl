@@ -48,40 +48,40 @@ function toggle_check_all()
 <!-- END switch_no_topics -->
 <tr>
 	<td class="cat" colspan="7">
-		<input type="submit" class="liteoption" name="recycle" value="{L_RECYCLE}" />&nbsp;
+		<input type="submit" class="btn" name="recycle" value="{L_RECYCLE}" />&nbsp;
 		<!-- BEGIN switch_auth_delete -->
-		<input type="submit" name="delete" class="liteoption" value="{L_DELETE}" />&nbsp;
+		<input type="submit" name="delete" class="btn" value="{L_DELETE}" />&nbsp;
 		<!-- END switch_auth_delete -->
-		<input type="submit" name="poll_delete" class="liteoption" value="{L_POLL_DELETE}" />&nbsp;
+		<input type="submit" name="poll_delete" class="btn" value="{L_POLL_DELETE}" />&nbsp;
 		<!-- BEGIN switch_auth_move -->
-		<input type="submit" name="move" class="liteoption" value="{L_MOVE}" />&nbsp;
+		<input type="submit" name="move" class="btn" value="{L_MOVE}" />&nbsp;
 		<!-- END switch_auth_move -->
-		<input type="submit" name="merge" class="liteoption" value="{L_MERGE}" />&nbsp;
+		<input type="submit" name="merge" class="btn" value="{L_MERGE}" />&nbsp;
 		<!-- BEGIN switch_auth_lock -->
-		<input type="submit" name="lock" class="liteoption" value="{L_LOCK}" />&nbsp;
+		<input type="submit" name="lock" class="btn" value="{L_LOCK}" />&nbsp;
 		<!-- END switch_auth_lock -->
 		<!-- BEGIN switch_auth_unlock -->
-		<input type="submit" name="unlock" class="liteoption" value="{L_UNLOCK}" />&nbsp;
+		<input type="submit" name="unlock" class="btn" value="{L_UNLOCK}" />&nbsp;
 		<!-- END switch_auth_unlock -->
-		<input type="submit" name="quick_title_edit" class="liteoption" value="{L_EDIT_TITLE}" />&nbsp;{SELECT_TITLE}&nbsp;
+		<input type="submit" name="quick_title_edit" class="btn" value="{L_EDIT_TITLE}" />&nbsp;{SELECT_TITLE}&nbsp;
 	</td>
 </tr>
 <tr>
 	<td class="cat" colspan="7">
 		<!-- BEGIN switch_auth_global_announce -->
-		<input type="submit" name="super_announce" class="liteoption" value="{L_GLOBAL_ANNOUNCE}" />&nbsp;
+		<input type="submit" name="super_announce" class="btn" value="{L_GLOBAL_ANNOUNCE}" />&nbsp;
 		<!-- END switch_auth_global_announce -->
 		<!-- BEGIN switch_auth_announce -->
-		<input type="submit" name="announce" class="liteoption" value="{L_ANNOUNCE}" />&nbsp;
+		<input type="submit" name="announce" class="btn" value="{L_ANNOUNCE}" />&nbsp;
 		<!-- END switch_auth_announce -->
 		<!-- BEGIN switch_auth_sticky -->
-		<input type="submit" name="sticky" class="liteoption" value="{L_STICKY}" />&nbsp;
+		<input type="submit" name="sticky" class="btn" value="{L_STICKY}" />&nbsp;
 		<!-- END switch_auth_sticky -->
 		<!-- BEGIN switch_auth_normalize -->
-		<input type="submit" name="normalize" class="liteoption" value="{L_NORMALIZE}" />
+		<input type="submit" name="normalize" class="btn" value="{L_NORMALIZE}" />
 		<!-- END switch_auth_normalize -->
 		<!-- BEGIN switch_auth_news -->
-		<input type="submit" name="news_category_edit" class="liteoption" value="{L_NEWS_CATEGORY}" />&nbsp;{SELECT_NEWS_CATS}&nbsp;
+		<input type="submit" name="news_category_edit" class="btn" value="{L_NEWS_CATEGORY}" />&nbsp;{SELECT_NEWS_CATS}&nbsp;
 		<!-- END switch_auth_news -->
 		{S_HIDDEN_FIELDS}
 	</td>

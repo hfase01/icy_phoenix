@@ -1,42 +1,50 @@
-{DOCTYPE_HTML}
+<!doctype html>
 <head>
 <!-- INCLUDE overall_inc_header.tpl -->
 </head>
 <body>
 <div id="page-header">
-	<h1><?php
-	$list = array('_TITLE', 'TOPIC_TITLE_SHORT', 'SITENAME');
-	for($i=0; $i<count($list); $i++)
-	{
-		if(isset($this->vars[$list[$i]]))
-		{
-			echo $this->vars[$list[$i]];
-			break;
-		}
-	}
-	?></h1>
-	<div class="header-links">
-		<a href="javascript:void(0);" class="menu-main"></a>
-		<ul class="menu">
-			<li><a href="{FULL_SITE_PATH}{U_PORTAL}">{L_HOME}</a></li>
-			<li><a href="{FULL_SITE_PATH}{U_INDEX}">{L_INDEX}</a></li>
-			<!-- BEGIN switch_upi2db_off -->
-			<li><a href="{FULL_SITE_PATH}{U_SEARCH_NEW}">{L_NEW2}</a></li>
-			<!-- END switch_upi2db_off -->
-			<!-- BEGIN switch_upi2db_on -->
-			<li><a href="{FULL_SITE_PATH}{U_SEARCH_NEW}">{L_NEW2}</a></li>
-			<!-- END switch_upi2db_on -->
-			<!-- IF S_LOGGED_IN -->
-			<li><a href="{FULL_SITE_PATH}{U_PROFILE}">{L_PROFILE}</a></li>
-			<!-- ENDIF -->
-			<li><a href="{FULL_SITE_PATH}{U_SEARCH}">{L_SEARCH}</a></li>
-			<li><a href="{FULL_SITE_PATH}{U_FAQ}">{L_FAQ}</a></li>
-			<!-- IF not S_LOGGED_IN -->
-			<li><a href="{FULL_SITE_PATH}{U_REGISTER}">{L_REGISTER}</a></li>
-			<!-- ENDIF -->
-			<li><a href="{FULL_SITE_PATH}{U_LOGIN_LOGOUT}">{L_LOGIN_LOGOUT2}</a></li>
-			<!-- IF S_MOBILE --><li>{MOBILE_STYLE}</li><!-- ENDIF -->
-		</ul>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</a>
+			<a class="brand" href="{FULL_SITE_PATH}{U_PORTAL}"><?php
+				$list = array('_TITLE', 'TOPIC_TITLE_SHORT', 'SITENAME');
+				for($i=0; $i<count($list); $i++)
+				{
+				if(isset($this->vars[$list[$i]]))
+				{
+				echo $this->vars[$list[$i]];
+				break;
+				}
+			} ?></a>
+			<div class="nav-collapse">
+				<ul class="nav">
+				<li><a href="{FULL_SITE_PATH}{U_PORTAL}">{L_HOME}</a></li>
+					<li><a href="{FULL_SITE_PATH}{U_INDEX}">{L_INDEX}</a></li>
+					<!-- BEGIN switch_upi2db_off -->
+					<li><a href="{FULL_SITE_PATH}{U_SEARCH_NEW}">{L_NEW2}</a></li>
+					<!-- END switch_upi2db_off -->
+					<!-- BEGIN switch_upi2db_on -->
+					<li><a href="{FULL_SITE_PATH}{U_SEARCH_NEW}">{L_NEW2}</a></li>
+					<!-- END switch_upi2db_on -->
+					<!-- IF S_LOGGED_IN -->
+					<li><a href="{FULL_SITE_PATH}{U_PROFILE}">{L_PROFILE}</a></li>
+					<!-- ENDIF -->
+					<li><a href="{FULL_SITE_PATH}{U_SEARCH}">{L_SEARCH}</a></li>
+					<li><a href="{FULL_SITE_PATH}{U_FAQ}">{L_FAQ}</a></li>
+					<!-- IF not S_LOGGED_IN -->
+					<li><a href="{FULL_SITE_PATH}{U_REGISTER}">{L_REGISTER}</a></li>
+					<!-- ENDIF -->
+					<li><a href="{FULL_SITE_PATH}{U_LOGIN_LOGOUT}">{L_LOGIN_LOGOUT2}</a></li>
+					<!-- IF S_MOBILE --><li>{MOBILE_STYLE}</li><!-- ENDIF -->
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
 	</div>
 </div>
 <div id="page-body">

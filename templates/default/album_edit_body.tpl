@@ -39,7 +39,7 @@ function checkAlbumForm()
 		<td class="row2"><textarea class="post" cols="60" rows="4" name="pic_desc" style="width: 98%;">{PIC_DESC}</textarea></td>
 	</tr>
 	<tr>
-		<td class="catBottom" align="center" height="28" colspan="2"><input type="reset" value="{L_RESET}" class="liteoption" />&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" /></td>
+		<td class="catBottom" align="center" height="28" colspan="2"><input type="reset" value="{L_RESET}" class="btn" />&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary" /></td>
 	</tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>

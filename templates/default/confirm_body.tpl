@@ -6,8 +6,8 @@
 		<form action="{S_CONFIRM_ACTION}" method="post">
 			{MESSAGE_TEXT}<br /><br />
 			{S_HIDDEN_FIELDS}
-			<input type="submit" name="confirm" value="{L_YES}" class="mainoption" />&nbsp;
-			<input type="submit" name="cancel" value="{L_NO}" class="liteoption" />
+			<input type="submit" name="confirm" value="{L_YES}" class="btn-primary" />&nbsp;
+			<input type="submit" name="cancel" value="{L_NO}" class="btn" />
 		</form>
 	</td>
 </tr>

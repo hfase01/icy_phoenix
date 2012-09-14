@@ -29,7 +29,7 @@
 	<input class="text" type="checkbox" name="autologin" /><span class="gensmall">&nbsp;{L_REMEMBER_ME}</span><br />
 	<!-- END switch_allow_autologin -->
 	<br />
-	<input type="submit" class="mainoption" name="login" value="{L_LOGIN}" /><br /><br />
+	<input type="submit" class="btn" name="login" value="{L_LOGIN}" /><br /><br />
 	<a href="{U_SEND_PASSWORD}" class="gensmall">{L_SEND_PASSWORD}</a><br /><br />
 	<span class="gensmall">{L_REGISTER_NEW_ACCOUNT}</span><br /><br />
 	</td>

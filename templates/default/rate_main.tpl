@@ -31,7 +31,7 @@
 
 <form method="post" action="{S_MODE_ACTION}">
 <table class="empty-table" width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr><td align="right"><span class="genmed"><b>{L_BY_FORUM}</b>&nbsp;&nbsp;{S_FORUMS}&nbsp;&nbsp;{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_VIEW}" class="mainoption" /></span></td></tr>
+<tr><td align="right"><span class="genmed"><b>{L_BY_FORUM}</b>&nbsp;&nbsp;{S_FORUMS}&nbsp;&nbsp;{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_VIEW}" class="btn" /></span></td></tr>
 </table>
 </form>
 

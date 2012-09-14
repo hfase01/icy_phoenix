@@ -51,7 +51,7 @@
 <tr>
 	<td colspan="{INC_SPAN_ALL}" class="cat">
 		<input class="post" type="text" name="name[0]" />&nbsp;&nbsp;
-		<input type="submit" {DISABLE_CREATION} class="mainoption" name="addcategory[0]" value="{L_CREATE_CATEGORY}" />&nbsp;&nbsp;
+		<input type="submit" {DISABLE_CREATION} class="btn-danger" name="addcategory[0]" value="{L_CREATE_CATEGORY}" />&nbsp;&nbsp;
 		<input type="submit" class="liteoption" name="sync_pics_counter" value="{L_SYNC_PICS_COUNTER}" />
 	</td>
 </tr>

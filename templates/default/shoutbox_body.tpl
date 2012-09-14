@@ -25,7 +25,7 @@
 			{L_SHOUT_TEXT}:&nbsp;
 			<input type="text" class="post" name="message" value="{MESSAGE}" size="25" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);" />
 			&nbsp;
-			<input type="submit" class="mainoption" value="{L_SHOUT_SUBMIT}" name="shout" />
+			<input type="submit" class="btn" value="{L_SHOUT_SUBMIT}" name="shout" />
 			<!-- END switch_auth_post -->
 			<!-- BEGIN switch_auth_no_post -->
 			{L_SHOUTBOX_LOGIN}&nbsp;

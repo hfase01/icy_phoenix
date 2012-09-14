@@ -180,7 +180,7 @@ function unsubscribeCheck()
 		</div>
 	</td>
 </tr>
-<tr><td class="cat" colspan="2"><input type="hidden" name="create_new" value="{DIGEST_CREATE_NEW_VALUE}" /><input type="submit" class="mainoption" value="{L_SUBMIT}" />&nbsp;&nbsp;<input type="reset" class="liteoption" value="{L_RESET}" /></td></tr>
+<tr><td class="cat" colspan="2"><input type="hidden" name="create_new" value="{DIGEST_CREATE_NEW_VALUE}" /><input type="submit" class="btn-primary" value="{L_SUBMIT}" />&nbsp;&nbsp;<input type="reset" class="btn" value="{L_RESET}" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 

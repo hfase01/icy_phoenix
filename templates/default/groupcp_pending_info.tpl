@@ -23,8 +23,8 @@
 <!-- END pending_members_row -->
 <tr>
 	<td class="cat" colspan="9" align="right">
-		<input type="submit" name="approve" value="{L_APPROVE_SELECTED}" class="mainoption" />
-		<input type="submit" name="deny" value="{L_DENY_SELECTED}" class="liteoption" />
+		<input type="submit" name="approve" value="{L_APPROVE_SELECTED}" class="btn-primary" />
+		<input type="submit" name="deny" value="{L_DENY_SELECTED}" class="btn" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

@@ -23,7 +23,7 @@ function select_switch(status)
 		<span class="gensmall">
 		{L_REGISTERED_AWAITS}:&nbsp;
 		<select name="days">{S_SELECT_DAYS}</select>
-		<input type="submit" value="{L_GO}" name="submit_wait" class="liteoption" />
+		<input type="submit" value="{L_GO}" name="submit_wait" class="btn-small" />
 		</span>
 	</td>
 </tr>
@@ -65,8 +65,8 @@ function select_switch(status)
 <tr>
 	<td class="cat" colspan="6">
 		{S_HIDDEN_FIELDS}
-		<input type="submit" name="activate" value="{L_DE_ACTIVATE_MARKED}" class="liteoption" />&nbsp;
-		<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="liteoption" />
+		<input type="submit" name="activate" value="{L_DE_ACTIVATE_MARKED}" class="btn-small" />&nbsp;
+		<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="btn-small" />
 	</td>
 </tr>
 </table>

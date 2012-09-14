@@ -1177,7 +1177,7 @@ function album_build_jumpbox($cat_id, $user_id = ALBUM_PUBLIC_GALLERY, $auth_key
 	$res .= $lang['Jump_to'] . ':&nbsp;<select name="cat_id" onchange="onChangeCheck()">';
 	$res .= album_get_tree_option($cat_id, $auth_key, ALBUM_SELECTBOX_INCLUDE_ROOT);
 	$res .= '</select>';
-	$res .= '&nbsp;<input type="submit" class="liteoption" value="'. $lang['Go'] .'" />';
+	$res .= '&nbsp;<input type="submit" class="btn" value="'. $lang['Go'] .'" />';
 	$res .= '<input type="hidden" name="sid" value="'. $user->data['session_id'] .'" />';
 	$res .= ($user_id != ALBUM_PUBLIC_GALLERY) ? '<input type="hidden" name="user_id" value="'. $user_id .'" />' : '';
 	$res .= '</form>';

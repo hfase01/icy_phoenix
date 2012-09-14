@@ -17,7 +17,7 @@
 </div>
 <!-- ELSE -->
 <input type="text" name="q" size="20" maxlength="255" value="{GSEARCH_TEXT}" class="post search" onclick="if(this.value=='{GSEARCH_TEXT}')this.value='';" onblur="if(this.value=='')this.value='{GSEARCH_TEXT}';" /><br /><br />
-<input type="submit" name="sa" class="mainoption" value="{L_SEARCH}" /><br /><br />
+<input type="submit" name="sa" class="btn" value="{L_SEARCH}" /><br /><br />
 <div style="width: 100%; text-align: left; padding-left: 20px;">
 <input type="radio" name="sitesearch" value="" checked="checked" /><span class="gensmall">Web</span><br />
 <input type="radio" name="sitesearch" value="{GSEARCH_SITE}" /><span class="gensmall">{GSEARCH_TEXT}</span><br />

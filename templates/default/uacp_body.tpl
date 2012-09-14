@@ -17,7 +17,7 @@ function select_switch(status)
 	<td align="left" nowrap="nowrap">&nbsp;</td>
 	<td align="right" nowrap="nowrap">
 		<span class="genmed">{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;
-			<input type="submit" name="submit" value="{L_SUBMIT}" class="liteoption" />
+			<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-small" />
 		</span>
 	</td>
 </tr>
@@ -49,7 +49,7 @@ function select_switch(status)
 	{attachrow.S_HIDDEN}
 </tr>
 <!-- END attachrow -->
-<tr><td class="catBottom" colspan="9"><input type="submit" name="delete" value="{L_DELETE_MARKED}" class="liteoption" /></td></tr>
+<tr><td class="catBottom" colspan="9"><input type="submit" name="delete" value="{L_DELETE_MARKED}" class="btn-small" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 
 {S_USER_HIDDEN}

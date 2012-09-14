@@ -87,7 +87,7 @@
 			<option {SORT_ASC} value='ASC'>{L_ASC}</option>
 			<option {SORT_DESC} value='DESC'>{L_DESC}</option>
 		</select>
-		&nbsp;<input type="submit" name="submit" value="{L_SORT}" class="liteoption" /></span>
+		&nbsp;<input type="submit" name="submit" value="{L_SORT}" class="btn" /></span>
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

@@ -122,7 +122,7 @@ function checkFormRate()
 						<option value="{rate_switch.rate_row.rate_scale_row.POINT}">{rate_switch.rate_row.rate_scale_row.POINT}</option>
 						<!-- END rate_scale_row -->
 					</select>&nbsp;
-					<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />
+					<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary" />
 				</form>
 				<!-- END rate_row -->
 				<br />
@@ -220,7 +220,7 @@ function checkFormRate()
 				<option {SORT_ASC} value='ASC'>{L_ASC}</option>
 				<option {SORT_DESC} value='DESC'>{L_DESC}</option>
 			</select>&nbsp;
-			<input type="submit" name="submit" value="{L_SORT}" class="liteoption" />
+			<input type="submit" name="submit" value="{L_SORT}" class="btn" />
 		</form>
 	</td>
 </tr>
@@ -246,7 +246,7 @@ function checkFormRate()
 		<div class="message-box"><textarea id="message" name="message" rows="15" cols="76" tabindex="3" onselect="storeCaret(this);" onclick="storeCaret(this);" onkeyup="storeCaret(this);">{S_MESSAGE}</textarea></div>
 	</td>
 </tr>
-<tr><td class="cat" align="center" colspan="2" height="28"><input class="mainoption" type="submit" name="submit" value="{L_SUBMIT}" /></td></tr>
+<tr><td class="cat" align="center" colspan="2" height="28"><input class="btn-primary" type="submit" name="submit" value="{L_SUBMIT}" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 <!-- END switch_comment_post -->

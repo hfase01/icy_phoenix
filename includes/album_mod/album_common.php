@@ -98,7 +98,7 @@ $album_search_box .= '		<option value="name_desc">' . $lang['Title_Description']
 $album_search_box .= '	</select>';
 $album_search_box .= '	' . $lang['Search_Contents'];
 $album_search_box .= '	<input class="post" type="text" name="search" maxlength="30" />&nbsp;&nbsp;';
-$album_search_box .= '	<input class="liteoption" type="submit" value="' . $lang['Go'] . '" />';
+$album_search_box .= '	<input class="btn" type="submit" value="' . $lang['Go'] . '" />';
 $album_search_box .= '</form>';
 
 $template->assign_vars(array(

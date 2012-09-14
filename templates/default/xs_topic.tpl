@@ -147,7 +147,7 @@ if($can_reply)
 				<img src="{smilies.URL}" onmouseover="this.style.cursor='pointer';" onclick="emoticon('{smilies.CODE}');" alt="{smilies.DESC}" title="{smilies.DESC}" />
 				<!-- END smilies -->
 			</td>
-			<td align="center" valign="middle">&nbsp;<input type="button" class="liteoption" name="SmilesButt" value="{L_SMILEYS_MORE}" onclick="openAllSmiles();" /></td>
+			<td align="center" valign="middle">&nbsp;<input type="button" class="btn-small" name="SmilesButt" value="{L_SMILEYS_MORE}" onclick="openAllSmiles();" /></td>
 		</tr>
 		</table>
 	</td>
@@ -189,8 +189,8 @@ if($can_reply)
 		<input type="hidden" name="f" value="<?php echo $forum_id; ?>" />
 		<input type="hidden" name="t" value="<?php echo $topic_id; ?>" />
 		<input type="hidden" name="sid" value="<?php echo $user->data['session_id']; ?>" />
-		<input type="submit" tabindex="5" name="preview" class="liteoption" value="<?php echo $lang['Preview']; ?>" />&nbsp;
-		<input type="submit" accesskey="s" tabindex="6" name="post" class="mainoption" value="<?php echo $lang['Submit']; ?>" />
+		<input type="submit" tabindex="5" name="preview" class="btn-small" value="<?php echo $lang['Preview']; ?>" />&nbsp;
+		<input type="submit" accesskey="s" tabindex="6" name="post" class="btn-large" value="<?php echo $lang['Submit']; ?>" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

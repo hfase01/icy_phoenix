@@ -42,7 +42,7 @@ function checkCategoryID()
 			<td class="row1">{S_SELECT_TO}</td>
 		</tr>
 		<tr>
-			<td class="cat" colspan="2" align="center"><input type="hidden" name="mode" value="delete" /><input type="submit" name="submit" value="{L_MOVE_DELETE}" class="mainoption" /></td>
+			<td class="cat" colspan="2" align="center"><input type="hidden" name="mode" value="delete" /><input type="submit" name="submit" value="{L_MOVE_DELETE}" class="btn-primary" /></td>
 		</tr>
 		</table>
 	</td>

@@ -27,7 +27,7 @@
 		<form method="post" action="{S_MODE_ACTION}">
 			<span class="gensmall">
 			{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}:&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;
-			<input type="submit" name="submit" value="{L_SORT}" class="liteoption" />
+			<input type="submit" name="submit" value="{L_SORT}" class="btn" />
 			</span>
 		</form>
 	</td>

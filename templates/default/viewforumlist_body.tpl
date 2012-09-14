@@ -1,6 +1,6 @@
 <!-- INCLUDE overall_header.tpl -->
 
-<!-- IF not S_BOT --><div style="float: right; text-align: right; margin-top: 5px;"><form action="{FULL_SITE_PATH}{U_SEARCH}" method="post"><input name="search_keywords" type="text" class="post search" style="width: 160px;" value="{L_SEARCH_THIS_FORUM}" onclick="if(this.value=='{L_SEARCH_THIS_FORUM}')this.value='';" onblur="if(this.value=='')this.value='{L_SEARCH_THIS_FORUM}';" /><input type="hidden" name="search_where" value="{FORUM_ID_FULL}" />&nbsp;<input type="submit" class="mainoption" value="{L_SEARCH}" /></form></div><!-- ENDIF -->
+<!-- IF not S_BOT --><div style="float: right; text-align: right; margin-top: 5px;"><form action="{FULL_SITE_PATH}{U_SEARCH}" method="post"><input name="search_keywords" type="text" class="post search" style="width: 160px;" value="{L_SEARCH_THIS_FORUM}" onclick="if(this.value=='{L_SEARCH_THIS_FORUM}')this.value='';" onblur="if(this.value=='')this.value='{L_SEARCH_THIS_FORUM}';" /><input type="hidden" name="search_where" value="{FORUM_ID_FULL}" />&nbsp;<input type="submit" class="btn" value="{L_SEARCH}" /></form></div><!-- ENDIF -->
 
 <div style="text-align: left; margin-top: 5px;"><a href="{U_VIEW_FORUM}" class="forumlink">{FORUM_NAME}</a><br /><br /></div>
 

@@ -25,10 +25,10 @@
 	<td class="row1" width="20%"><span class="gen">{L_GROUP_MEMBERSHIP}:</span></td>
 	<td class="row2"><span class="gen">{GROUP_DETAILS} &nbsp;&nbsp;
 	<!-- BEGIN switch_subscribe_group_input -->
-	<input class="mainoption" type="submit" name="joingroup" value="{L_JOIN_GROUP}" />
+	<input class="btn-primary" type="submit" name="joingroup" value="{L_JOIN_GROUP}" />
 	<!-- END switch_subscribe_group_input -->
 	<!-- BEGIN switch_unsubscribe_group_input -->
-	<input class="mainoption" type="submit" name="unsub" value="{L_UNSUBSCRIBE_GROUP}" />
+	<input class="btn-primary" type="submit" name="unsub" value="{L_UNSUBSCRIBE_GROUP}" />
 	<!-- END switch_unsubscribe_group_input -->
 	</span></td>
 </tr>
@@ -126,7 +126,7 @@
 		<input type="text" class="post" name="username" id="username" maxlength="50" size="20" {S_AJAX_USER_CHECK} />&nbsp;
 		<span id="username_list" style="display: none;">&nbsp;<span id="username_select">&nbsp;</span></span>
 		<input type="submit" name="add" value="{L_ADD_MEMBER}" class="mainoption" />&nbsp;
-		<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="liteoption" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes'); return false;" />
+		<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="btn" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes'); return false;" />
 		</span>
 		<br />
 		<span id="username_error_tbl" style="display: none;"><span id="username_error_text" class="gen">&nbsp;</span></span>

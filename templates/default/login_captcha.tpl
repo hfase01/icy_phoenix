@@ -16,7 +16,7 @@
 		{S_HIDDEN_FIELDS}
 		<br /><br />
 		<span class="gen">
-			<input type="text" name="confirm_code" value="" class="post" />{NAV_SEP}<input type="submit" name="submit" value="{L_BUTTON_TEXT}" class="mainoption" />
+			<input type="text" name="confirm_code" value="" class="post" />{NAV_SEP}<input type="submit" name="submit" value="{L_BUTTON_TEXT}" class="btn" />
 		</span>
 		<br /><br />
 	</td>

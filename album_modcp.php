@@ -345,11 +345,11 @@ if (empty($mode))
 		'L_LOCK' => $lang['Lock'],
 		'L_UNLOCK' => $lang['Unlock'],
 
-		'DELETE_BUTTON' => ($auth_data['delete'] == 1) ? '<input type="submit" class="liteoption" name="delete" value="'. $lang['Delete'] . '" />' : '',
+		'DELETE_BUTTON' => ($auth_data['delete'] == 1) ? '<input type="submit" class="btn-small" name="delete" value="'. $lang['Delete'] . '" />' : '',
 
-		'APPROVAL_BUTTON' => ($is_auth_approve == true) ? '<input type="submit" class="liteoption" name="approval" value="' . $lang['Approve'] . '" />' : '',
+		'APPROVAL_BUTTON' => ($is_auth_approve == true) ? '<input type="submit" class="btn-small" name="approval" value="' . $lang['Approve'] . '" />' : '',
 
-		'UNAPPROVAL_BUTTON' => ($is_auth_approve == true) ? '<input type="submit" class="liteoption" name="unapproval" value="' . $lang['Unapprove'] . '" />' : '',
+		'UNAPPROVAL_BUTTON' => ($is_auth_approve == true) ? '<input type="submit" class="btn-small" name="unapproval" value="' . $lang['Unapprove'] . '" />' : '',
 
 		'L_CHECK_ALL' => $lang['Modcp_check_all'],
 		'L_UNCHECK_ALL' => $lang['Modcp_uncheck_all'],

@@ -61,7 +61,7 @@ ob_start();
 		<input type="hidden" name="t" value="<?php echo $privmsgs_id; ?>" />
 		<input type="hidden" name="sid" value="<?php echo $user->data['session_id']; ?>" />
 		<input type="submit" tabindex="5" name="preview" class="liteoption" value="<?php echo $lang['Preview']; ?>" />&nbsp;
-		<input type="submit" accesskey="s" tabindex="6" name="post" class="mainoption" value="<?php echo $lang['Submit']; ?>" />
+		<input type="submit" accesskey="s" tabindex="6" name="post" class="btn" value="<?php echo $lang['Submit']; ?>" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

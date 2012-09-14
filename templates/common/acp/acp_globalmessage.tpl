@@ -40,7 +40,7 @@ function change_field_desc (onoff)
 		</table>
 	</td>
 </tr>
-<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption"></td></tr>
+<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary"></td></tr>
 </table>
 
 <br /><br />

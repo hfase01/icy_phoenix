@@ -31,7 +31,7 @@
 	<td align="left"><span class="pagination">{PAGINATION}</span></td>
 	<td align="right" valign="top" nowrap="nowrap">
 		<form method="post" action="{S_MODE_ACTION}">
-			<span class="genmed">{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}:&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;{L_REFERER_GROUP_BY}:&nbsp;{S_GROUP_BY_SELECT}&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" /></span>
+			<span class="genmed">{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}:&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;{L_REFERER_GROUP_BY}:&nbsp;{S_GROUP_BY_SELECT}&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="btn" /></span>
 		</form>
 	</td>
 </tr>

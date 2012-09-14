@@ -121,7 +121,7 @@
 	<td class="row2" nowrap="nowrap">&nbsp;</td>
 <!-- ENDIF -->
 </tr>
-<tr><td class="cat" colspan="4"><input class="mainoption" type="submit" name="submit" value="{L_SEARCH}" />&nbsp;&nbsp;<input class="liteoption" type="reset" value="{L_RESET}" /></td></tr>
+<tr><td class="cat" colspan="4"><input class="btn" type="submit" name="submit" value="{L_SEARCH}" />&nbsp;&nbsp;<input class="btn" type="reset" value="{L_RESET}" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 
 {S_FORM_TOKEN}

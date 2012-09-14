@@ -14,8 +14,8 @@
 	</tr>
 	<tr>
 		<td class="cat" align="center">
-			<input type="button" class="mainoption" value="{L_INSERT_BBC}" onclick="bbcb_ui_vars_reassign_start(); emoticon_sc(this.form.bbci.value); bbcb_ui_vars_reassign_end();" />&nbsp;
-			<input type="button" class="liteoption" value="{L_CLOSE_WINDOW}" onclick="window.close();" />
+			<input type="button" class="btn" value="{L_INSERT_BBC}" onclick="bbcb_ui_vars_reassign_start(); emoticon_sc(this.form.bbci.value); bbcb_ui_vars_reassign_end();" />&nbsp;
+			<input type="button" class="btn" value="{L_CLOSE_WINDOW}" onclick="window.close();" />
 		</td>
 	</tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

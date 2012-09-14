@@ -46,7 +46,7 @@
 <tr>
 	<th colspan="2">
 		<input type="hidden" value="save_config" name="action">
-		<input type="submit" value="{L_SUBMIT}" onlick="document.configuration.submit()" class="mainoption">
+		<input type="submit" value="{L_SUBMIT}" onlick="document.configuration.submit()" class="btn-primary">
 	</th>
 </tr>
 </table>

@@ -10,20 +10,21 @@
 
 <div class="block-empty">
 	<h2><a href="{U_VIEW_TOPIC_BASE}" style="text-decoration: none;">{TOPIC_TITLE}</a></h2>
+	{PAGE_NUMBER} {PAGINATION}<br>
 	<!-- IF not S_BOT -->
-		<a href="{U_POST_NEW_TOPIC}" class="gradient link">{L_POST_NEW_TOPIC}</a>
-		<a href="{U_POST_REPLY_TOPIC}" class="gradient link">{L_POST_REPLY_TOPIC}</a>
-		<!-- IF S_THANKS --><a href="{U_THANKS}" class="gradient link">{L_THANKS}</a><!-- ENDIF --><br />
+		<a href="{U_POST_REPLY_TOPIC}" class="btn gradient btn-large">{L_POST_REPLY_TOPIC}</a>
+		<a href="{U_POST_NEW_TOPIC}" class="btn gradient">{L_POST_NEW_TOPIC}</a>
+		<!-- IF S_THANKS --><a href="{U_THANKS}" class="btn gradient">{L_THANKS}</a><!-- ENDIF --><br />
 	<!-- ENDIF -->
-	{PAGE_NUMBER} {PAGINATION}<br />
 </div>
 
 {POLL_DISPLAY}
 {REG_DISPLAY}
 
 <!-- BEGIN postrow -->
-<div class="block post" style="position: relative;">
-	<div class="popup right" style="position: static;">
+<div class="block well post" style="position: relative;">
+	
+	<div class="btn popup right" style="position: static;">
 		{postrow.POSTER_NAME}
 		<div class="block">
 			<p class="post-details">
@@ -39,14 +40,16 @@
 		</div>
 	</div>
 	<!-- IF not S_BOT and S_LOGGED_IN -->
-	<div class="right popup" style="position: static;">
-		<a href="javascript:void(0);" class="gradient button-main"><span></span></a>
-		<ul class="menu">
-			<li>{postrow.QUOTE}</li>
-			<li>{postrow.EDIT}</li>
-			<li>{postrow.DELETE}</li>
-		</ul>
-	</div>
+	<div class="btn btn-primary dropdown-toggle right" style="position: static; >
+		<button class="btn">{postrow.QUOTE}</button>
+			<button class="btn dropdown-toggle" data-toggle="dropdown">
+				<span class="caret"></span>
+				<ul class="dropdown-menu">
+				<li>{postrow.EDIT}</li>
+				<li class="divider"></li>
+				<li>{postrow.DELETE}</li>
+			</ul>
+		</div>
 	<!-- ENDIF -->
 	<h2>{postrow.POST_SUBJECT}</h2>
 	<p class="post-time">{postrow.POST_DATE}</p>
@@ -55,5 +58,13 @@
 	<div class="clear"></div>
 </div>
 <!-- END postrow -->
+<div class="block-empty">
+	<!-- IF not S_BOT -->
+		<a href="{U_POST_REPLY_TOPIC}" class="btn gradient btn-large">{L_POST_REPLY_TOPIC}</a>
+		<a href="{U_POST_NEW_TOPIC}" class="btn gradient">{L_POST_NEW_TOPIC}</a>
+		<!-- IF S_THANKS --><a href="{U_THANKS}" class="btn gradient">{L_THANKS}</a><!-- ENDIF --><br />
+	<!-- ENDIF -->
+		{PAGE_NUMBER} {PAGINATION}<br />
 
-
+</table>
+</div>

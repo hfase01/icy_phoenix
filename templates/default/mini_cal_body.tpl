@@ -35,7 +35,7 @@
 	<tr>
 		<td colspan="7" class="row1 row-center">
 			<span class="genmed">
-				{S_MINI_CAL_EVENTS_FORUMS_LIST} <input type="submit" value="{L_MINI_CAL_ADD_EVENT}" class="liteoption" />
+				{S_MINI_CAL_EVENTS_FORUMS_LIST} <input type="submit" value="{L_MINI_CAL_ADD_EVENT}" class="btn" />
 				<input type="Hidden" name="mode" id="mode" value="newtopic" />
 			</span>
 		</td>

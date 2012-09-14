@@ -99,7 +99,7 @@
 	<th colspan="2">
 		<input type="hidden" value="special" name="mode" />
 		<input type="hidden" value="save_special" name="action" />
-		<input type="submit" value="{L_SUBMIT}" onlick="document.special.submit()" class="mainoption" />
+		<input type="submit" value="{L_SUBMIT}" onlick="document.special.submit()" class="btn-primary" />
 	</th>
 </tr>
 </table>

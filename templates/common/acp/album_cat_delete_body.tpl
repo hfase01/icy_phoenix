@@ -13,7 +13,7 @@
 	<td class="row1"><span class="genmed">{L_MOVE_CONTENTS}</span></td>
 	<td class="row1">{S_SELECT_TO}</td>
 </tr>
-<tr><td class="cat" colspan="2" align="center"><input type="hidden" name="mode" value="delete" /><input type="submit" name="submit" value="{L_MOVE_DELETE}" class="mainoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center"><input type="hidden" name="mode" value="delete" /><input type="submit" name="submit" value="{L_MOVE_DELETE}" class="btn-danger" /></td></tr>
 </table>
 </form>
 

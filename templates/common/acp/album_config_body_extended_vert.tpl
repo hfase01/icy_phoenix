@@ -121,7 +121,7 @@ function checkForm(tab,subtab)
 	</td>
 </tr>
 <tr>
-	<td class="cat" colspan="2" align="center"><input type="submit" name="submitted" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" onclick="unsetChange();" class="liteoption" /></td>
+	<td class="cat" colspan="2" align="center"><input type="submit" name="submitted" value="{L_SUBMIT}" class="btn-primary" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" onclick="unsetChange();" class="liteoption" /></td>
 </tr>
 </form>
 <!-- BEGIN switch_on_save_confirmation -->

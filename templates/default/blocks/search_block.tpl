@@ -27,7 +27,7 @@ function checkSearch()
 		</select></td>
 	</tr>
 	<tr><td align="center"><a href="{U_SEARCH}" class="gensmall">{L_ADVANCED_SEARCH}</a></td></tr>
-	<tr><td align="center"><br /><input class="mainoption" type="submit" value="{L_SEARCH}" /><br /><br /></td></tr>
+	<tr><td align="center"><br /><input class="btn" type="submit" value="{L_SEARCH}" /><br /><br /></td></tr>
 </table>
 <input type="hidden" name="search_fields" value="all" />
 <input type="hidden" name="show_results" value="topics" />

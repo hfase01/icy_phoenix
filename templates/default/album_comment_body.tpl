@@ -155,7 +155,7 @@ function openAllSmiles()
 	</td>
 </tr>
 
-<tr><td class="cat" align="center" colspan="3"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" /></td></tr>
+<tr><td class="cat" align="center" colspan="3"><input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 <!-- END switch_comment_post -->

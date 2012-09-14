@@ -67,7 +67,7 @@ function toggle_check_all()
 <!-- BEGIN emptyrow -->
 <tr><td class="row1 row-center" colspan="6"><span class="gen">{L_NO_TOPICS_FOUND}</span></td></tr>
 <!-- END emptyrow -->
-<tr><td class="cat" colspan="6"><input type="submit" class="mainoption" value="{L_DELETE}" />&nbsp;&nbsp;<input type="reset" class="liteoption" value="{L_CLEAR}" /></td></tr>
+<tr><td class="cat" colspan="6"><input type="submit" class="btn-primary" value="{L_DELETE}" />&nbsp;&nbsp;<input type="reset" class="liteoption" value="{L_CLEAR}" /></td></tr>
 </table>
 </form>
 
@@ -89,7 +89,7 @@ function toggle_check_all()
 		<input type="hidden" name="delete_all_before_date" value="1" />
 		<input type="hidden" name="mode" value="{S_MODE}" />
 		<input type="hidden" name="order" value="{S_ORDER}" />
-		<input type="submit" value="{L_DELETE_BEFORE}" class="mainoption" />
+		<input type="submit" value="{L_DELETE_BEFORE}" class="btn-primary" />
 	</td>
 </tr>
 </table>

@@ -95,7 +95,7 @@
 <tr><th colspan="5">{L_YOUR_AVATAR} ({S_IMAGE_NAME} - {S_IMAGE_TEXT})</th></tr>
 <tr>
 	<td colspan="4" class="row1 row-center">
-		<span class="gen">{L_AVATAR_TEXT}</span>&nbsp;&nbsp;<input type = "text" name="avatartext" value="{S_IMAGE_TEXT}" size="32">&nbsp;<input type="submit" name="avatargenerator" value="{L_PREVIEW_AVATAR}" class="mainoption" />
+		<span class="gen">{L_AVATAR_TEXT}</span>&nbsp;&nbsp;<input type = "text" name="avatartext" value="{S_IMAGE_TEXT}" size="32">&nbsp;<input type="submit" name="avatargenerator" value="{L_PREVIEW_AVATAR}" class="btn-large" />
 	</td>
 	<td class="row1 row-center">
 		<br /><img src="generate_avatar.php?cachefile={AVATAR_FILENAME}&amp;avatarfile={S_IMAGE_NAME}&amp;text_content={S_IMAGE_TEXT}" alt="{L_YOUR_AVATAR}" /><br /><br />
@@ -105,7 +105,7 @@
 <!-- IF S_LOGGED_IN -->
 <tr>
 	<td class="catBottom" colspan="5">{S_HIDDEN_FIELDS}
-		<input type="submit" name="submitgenava" value="{L_SUBMIT_AVATAR}" class="mainoption" />
+		<input type="submit" name="submitgenava" value="{L_SUBMIT_AVATAR}" class="btn" />
 		&nbsp;&nbsp;
 		<input type="submit" name="cancelavatar" value="{L_RETURN_PROFILE}" class="liteoption" />
 	</td>

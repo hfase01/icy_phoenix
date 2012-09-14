@@ -11,8 +11,8 @@
 	</tr>
 	<tr>
 		<td class="cat" align="center">
-			<input type="submit" class="mainoption" value="{L_SUBMIT}" />&nbsp;
-			<input type="button" class="liteoption" value="{L_CLOSE_WINDOW}" onclick="window.close()" />
+			<input type="submit" class="btn" value="{L_SUBMIT}" />&nbsp;
+			<input type="button" class="btn" value="{L_CLOSE_WINDOW}" onclick="window.close()" />
 		</td>
 	</tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

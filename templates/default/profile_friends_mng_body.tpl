@@ -43,7 +43,7 @@ function add_username(selected_username)
 	<td class="row2 row-center">
 		<input type="text" class="post" name="username" id="username" maxlength="50" size="20" {S_AJAX_USER_CHECK} />&nbsp;
 		<span id="username_list" style="display: none;">&nbsp;<span id="username_select">&nbsp;</span></span>
-		<input type="button" value="{L_ADD_MEMBER}" class="mainoption" onclick="add_username(this.form.username.value);return false;" />&nbsp;
+		<input type="button" value="{L_ADD_MEMBER}" class="btn" onclick="add_username(this.form.username.value);return false;" />&nbsp;
 		<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="liteoption" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes'); return false;" /><br /><br />
 		<textarea name="add" rows="5" cols="30">{USERNAMES}</textarea><br />
 	</td>
@@ -51,8 +51,8 @@ function add_username(selected_username)
 <tr>
 	<td class="cat" colspan="2">
 		{S_HIDDEN_FIELDS}
-		<input type="submit" name="submit" class="mainoption" value="{L_SUBMIT}" />&nbsp;&nbsp;
-		<input type="submit" name="reset" class="liteoption" value="{L_RESET}" />
+		<input type="submit" name="submit" class="btn" value="{L_SUBMIT}" />&nbsp;&nbsp;
+		<input type="submit" name="reset" class="btn" value="{L_RESET}" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

@@ -37,8 +37,8 @@
 <tr>
 	<td class="cat" colspan="2">
 		{S_HIDDEN_FORM_FIELDS}
-		<input type="submit" tabindex="5" name="preview" class="mainoption" value="{L_PREVIEW}" />&nbsp;
-		<input type="submit" accesskey="s" tabindex="6" name="submit" class="mainoption" value="{L_SUBMIT}" />
+		<input type="submit" tabindex="5" name="preview" class="btn" value="{L_PREVIEW}" />&nbsp;
+		<input type="submit" accesskey="s" tabindex="6" name="submit" class="btn" value="{L_SUBMIT}" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

@@ -15,13 +15,13 @@
 		<td class="row1" valign="top"><span class="gen"><b>{L_OPTIONS}</b></span></td>
 		<td class="row2">
 		<span class="genmed">
-		<input type="submit" name="edit_comment[{attach_row.ATTACH_FILENAME}]" value="{L_UPDATE_COMMENT}" class="liteoption" />
+		<input type="submit" name="edit_comment[{attach_row.ATTACH_FILENAME}]" value="{L_UPDATE_COMMENT}" class="btn" />
 		<!-- BEGIN switch_update_attachment -->
-		&nbsp; <input type="submit" name="update_attachment[{attach_row.ATTACH_ID}]" value="{L_UPLOAD_NEW_VERSION}" class="liteoption" />
+		&nbsp; <input type="submit" name="update_attachment[{attach_row.ATTACH_ID}]" value="{L_UPLOAD_NEW_VERSION}" class="btn" />
 		<!-- END switch_update_attachment -->
-		&nbsp; <input type="submit" name="del_attachment[{attach_row.ATTACH_FILENAME}]" value="{L_DELETE_ATTACHMENT}" class="liteoption" />
+		&nbsp; <input type="submit" name="del_attachment[{attach_row.ATTACH_FILENAME}]" value="{L_DELETE_ATTACHMENT}" class="btn" />
 		<!-- BEGIN switch_thumbnail -->
-		&nbsp; <input type="submit" name="del_thumbnail[{attach_row.ATTACH_FILENAME}]" value="{L_DELETE_THUMBNAIL}" class="liteoption" />
+		&nbsp; <input type="submit" name="del_thumbnail[{attach_row.ATTACH_FILENAME}]" value="{L_DELETE_THUMBNAIL}" class="btn" />
 		<!-- END switch_thumbnail -->
 		</span>
 		</td>

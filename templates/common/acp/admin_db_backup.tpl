@@ -19,7 +19,7 @@
 	<td class="cat" colspan="2" align="center" id="submitbar">
 		<input class="mainoption" type="submit" id="submit" name="submit" value="{L_START_RESTORE}" />&nbsp;
 		<input class="mainoption" type="submit" id="download" name="download" value="{L_DOWNLOAD_BACKUP}" />&nbsp;
-		<input class="liteoption" type="submit" id="delete" name="delete" value="{L_DELETE_BACKUP}" />
+		<input class="btn-small" type="submit" id="delete" name="delete" value="{L_DELETE_BACKUP}" />
 	</td>
 </tr>
 </table>
@@ -106,8 +106,8 @@ function selector(bool)
 <tr>
 	<td class="cat" colspan="2" align="center" id="submitbar">
 		<input type="hidden" name="where" value="store" />
-		<input class="mainoption" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
-		<input class="liteoption" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		<input class="btn-primary" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+		<input class="btn-small" type="reset" id="reset" name="reset" value="{L_RESET}" />
 	</td>
 </tr>
 </table>

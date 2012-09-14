@@ -146,7 +146,7 @@ function checkAddForm()
 <!-- ENDIF -->
 
 <!-- INCLUDE pa_custom_field.tpl -->
-<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="mainoption" type="submit" value="{L_FILE_TITLE}" name="submit"></td></tr>
+<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="btn" type="submit" value="{L_FILE_TITLE}" name="submit"></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 <br />
 </form>

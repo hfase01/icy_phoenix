@@ -99,9 +99,9 @@ function select_switch(status)
 		-->
 			<td width="100%" align="center" nowrap="nowrap">
 				{S_HIDDEN_FIELDS}
-				<input type="submit" name="save" value="{L_SAVE_MARKED}" class="mainoption" style="padding-left: 2px; padding-right: 2px;" />
+				<input type="submit" name="save" value="{L_SAVE_MARKED}" class="btn" style="padding-left: 2px; padding-right: 2px;" />
 				&nbsp;
-				<input type="submit" name="download" value="{L_DOWNLOAD_MARKED}" class="altoption" />
+				<input type="submit" name="download" value="{L_DOWNLOAD_MARKED}" class="btn-info" />
 				&nbsp;
 				<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="liteoption" style="padding-left: 2px; padding-right: 2px;" />
 				&nbsp;

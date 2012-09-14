@@ -23,7 +23,7 @@
 	<th align="center" valign="middle" colspan="{S_COLSPAN}">
 		<span class="genmed">
 			{L_CATEGORY}:&nbsp;{S_CATEGORY_SELECT}&nbsp;
-			<input type="submit" class="liteoption" value="{L_GO}" name="pic_gallery" />
+			<input type="submit" class="btn" value="{L_GO}" name="pic_gallery" />
 		</span>
 	</th>
 </tr>
@@ -59,7 +59,7 @@
 	<td class="row1h row-center">
 		<span class="genmed">
 			{SELECT_CAT}&nbsp;
-			<input type="submit" class="liteoption" value="{L_GO}" name="pic_upload" />
+			<input type="submit" class="btn" value="{L_GO}" name="pic_upload" />
 		</span>
 	</td>
 </tr>

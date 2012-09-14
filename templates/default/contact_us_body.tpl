@@ -72,7 +72,7 @@ function checkForm(form) {
 	<td class="row2"><input type="text" class="post" style="width: 200px" name="confirm_code" size="6" maxlength="6" value="" /></td>
 </tr>
 <!-- END switch_confirm -->
-<tr><td class="cat" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" tabindex="6" name="submit" class="mainoption" value="{L_SEND_EMAIL}" /></td></tr>
+<tr><td class="cat" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" tabindex="6" name="submit" class="btn-primary" value="{L_SEND_EMAIL}" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 

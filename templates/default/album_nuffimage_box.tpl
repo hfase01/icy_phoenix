@@ -117,7 +117,7 @@
 		<td class="row1" width="45%"><span class="gen"><b>{L_NUFF_TINT}</b><br /><br />{L_NUFF_TINT_EXPLAIN}</span></td>
 	</tr>
 	<!-- END sepia_bw_enabled -->
-	<tr><td class="row3 row-center" width="100%" colspan="7"><span class="gen"><input type="submit" value="{L_SUBMIT}" class="mainoption" /></span></td></tr>
+	<tr><td class="row3 row-center" width="100%" colspan="7"><span class="gen"><input type="submit" value="{L_SUBMIT}" class="btn-primary" /></span></td></tr>
 </table>
 </form>
 <br />

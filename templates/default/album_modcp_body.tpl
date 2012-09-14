@@ -59,7 +59,7 @@ function checkSelected()
 	<option {SORT_ASC} value='ASC'>{L_ASC}</option>
 	<option {SORT_DESC} value='DESC'>{L_DESC}</option>
 </select>
-&nbsp;<input type="submit" name="submit" value="{L_SORT}" class="liteoption" /></span>
+&nbsp;<input type="submit" name="submit" value="{L_SORT}" class="btn" /></span>
 </div>
 
 {IMG_THL}{IMG_THC}<span class="forumlink">{L_MODCP}</span>{IMG_THR}<table class="forumlinenb" width="100%" cellspacing="0" cellpadding="0">
@@ -94,16 +94,16 @@ function checkSelected()
 <tr>
 	<td class="cat" colspan="6" align="right" height="28">
 		<input type="hidden" name="mode" value="modcp" />
-		<input type="submit" class="liteoption" name="move" value="{L_MOVE}" />
-		<input type="submit" class="liteoption" name="copy" value="{L_COPY}" />
-		<input type="submit" class="liteoption" name="lock" value="{L_LOCK}" />
-		<input type="submit" class="liteoption" name="unlock" value="{L_UNLOCK}" />
+		<input type="submit" class="btn" name="move" value="{L_MOVE}" />
+		<input type="submit" class="btn" name="copy" value="{L_COPY}" />
+		<input type="submit" class="btn" name="lock" value="{L_LOCK}" />
+		<input type="submit" class="btn" name="unlock" value="{L_UNLOCK}" />
 		{DELETE_BUTTON}
 		{APPROVAL_BUTTON}
 		{UNAPPROVAL_BUTTON}
 		&nbsp;&nbsp;
-		<input type="button" class="liteoption" name="checkButton" value="{L_CHECK_ALL}" onclick="checkAll();">
-		<input type="button" class="liteoption" name="inverseButton" value="{L_INVERSE_SELECTION}" onclick="checkReverse();">
+		<input type="button" class="btn" name="checkButton" value="{L_CHECK_ALL}" onclick="checkAll();">
+		<input type="button" class="btn" name="inverseButton" value="{L_INVERSE_SELECTION}" onclick="checkReverse();">
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

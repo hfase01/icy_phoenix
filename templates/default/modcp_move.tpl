@@ -9,9 +9,9 @@
 		{MESSAGE_TEXT}<br />
 		<br />
 		{S_HIDDEN_FIELDS}
-		<input class="mainoption" type="submit" name="confirm" value="{L_YES}" />
+		<input class="btn" type="submit" name="confirm" value="{L_YES}" />
 		&nbsp;&nbsp;
-		<input class="liteoption" type="submit" name="cancel" value="{L_NO}" />
+		<input class="btn" type="submit" name="cancel" value="{L_NO}" />
 		</span>
 	</td>
 </tr>

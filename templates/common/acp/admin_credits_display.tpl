@@ -28,7 +28,7 @@
 	<th>{L_WEBSITE}</th>
 	<th>{L_USER_VIEWABLE}</th>
 	<th>&nbsp;</th>
-	<th><input type="submit" name="delete_sub" value="{L_DELETE}" class="liteoption" /></th>
+	<th><input type="submit" name="delete_sub" value="{L_DELETE}" class="btn-small" /></th>
 </tr>
 <!-- BEGIN empty_switch -->
 <tr><td colspan="7" class="row1 row-center">{L_NO_HACKS}</td></tr>
@@ -47,7 +47,7 @@
 <!-- END listrow -->
 <tr>
 	<td class="cat" colspan="6">&nbsp;</td>
-	<td class="cat"><input type="submit" name="delete_sub" value="{L_DELETE}" class="liteoption" /></td>
+	<td class="cat"><input type="submit" name="delete_sub" value="{L_DELETE}" class="btn-small" /></td>
 </tr>
 </table>
 </form>

@@ -47,7 +47,7 @@ function checkForm(formObj)
 	<td class="row1" valign="top"><span class="gen"><b>{L_OPTIONS}</b></span></td>
 	<td class="row2" align="left"><input type="checkbox" name="cc_email" value="1" checked="checked" />&nbsp;<span class="gen">{L_CC_EMAIL}</span></td>
 </tr>
-<tr><td class="catBottom" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" tabindex="6" name="submit" class="mainoption" value="{L_SEND_EMAIL}" /></td></tr>
+<tr><td class="catBottom" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" tabindex="6" name="submit" class="btn" value="{L_SEND_EMAIL}" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 <div align="right">{JUMPBOX}</div>

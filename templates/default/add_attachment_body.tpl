@@ -8,6 +8,6 @@
 	<td class="row1" valign="top"><span class="gen"><b>{L_FILE_COMMENT}</b></span></td>
 	<td class="row2">
 		<span class="genmed"><textarea name="filecomment" rows="3" cols="50" style="width: 98%;" class="post">{FILE_COMMENT}</textarea></span><br />
-		<input type="submit" name="add_attachment" value="{L_ADD_ATTACHMENT}" class="liteoption" />
+		<input type="submit" name="add_attachment" value="{L_ADD_ATTACHMENT}" class="btn" />
 	</td>
 </tr>

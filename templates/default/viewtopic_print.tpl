@@ -12,7 +12,7 @@
 <b>{L_SHOW_POSTS_FROM}</b>&nbsp;<input type="text" name="start" value="{POSTS_START}" size="6" maxlength="6" class="post" style="width: 30px;" />&nbsp;&nbsp;
 <b>{L_SHOW_POSTS_TO}</b>&nbsp;<input type="text" name="limit" value="{POSTS_LIMIT}" size="6" maxlength="6" class="post" style="width: 30px;" />&nbsp;&nbsp;
 {S_HIDDEN_FIELDS}
-<input type="submit" name="submit" value="{L_GO}" class="mainoption" />&nbsp;<br />
+<input type="submit" name="submit" value="{L_GO}" class="btn-large" />&nbsp;<br />
 </form>
 <!-- ENDIF -->
 </div>

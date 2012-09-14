@@ -484,7 +484,7 @@
 
 <!-- END switch_cpl_avatar -->
 <tr>
-	<td class="catBottom" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
+	<td class="catBottom" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-large" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 <!-- BEGIN switch_cpl_menu -->

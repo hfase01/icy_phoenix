@@ -59,7 +59,7 @@ function toggle_check_all()
 	</td>
 	<td align="center" valign="middle" rowspan="2">
 		<input type="hidden" name="mode" value="{S_MODE}" />
-		<input type="submit" name="submit" value="{L_SORT}" class="liteoption" />
+		<input type="submit" name="submit" value="{L_SORT}" class="btn-small" />
 	</td>
 </tr>
 </table>
@@ -111,8 +111,8 @@ function toggle_check_all()
 <tr>
 	<td class="cat" colspan="8">
 		<input type="hidden" name="mode" value="{S_MODE}" />
-		<input type="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-		<input type="reset" value="{L_RESET}" class="liteoption" />
+		<input type="submit" value="{L_SUBMIT}" class="btn-primary" />&nbsp;&nbsp;
+		<input type="reset" value="{L_RESET}" class="btn-small" />
 	</td>
 </tr>
 </table>

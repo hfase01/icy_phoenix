@@ -78,8 +78,8 @@ function toggle_check_all()
 <!-- END log_row -->
 <tr>
 	<td class="cat" colspan="7" height="28">
-		<input type="submit" name="delete_sub" value="{L_LOGS_DELETE}" class="liteoption" />
-		<!-- &nbsp;<input type="submit" name="clear" value="{L_LOGS_DELETE_ALL}" class="liteoption" /> -->
+		<input type="submit" name="delete_sub" value="{L_LOGS_DELETE}" class="btn-small" />
+		<!-- &nbsp;<input type="submit" name="clear" value="{L_LOGS_DELETE_ALL}" class="btn-small" /> -->
 	</td>
 </tr>
 </table>

@@ -19,7 +19,7 @@ function toggle_check_all()
 
 <form method="post" action="{S_DELETE_ACTION}" name="ref_kill_form">
 <div class="genmed" style="text-align: right; margin-top: 5px; margin-bottom: 5px;">
-	{L_REFERER_KILL}&nbsp;&nbsp;<input type="text" name="ref_kill_text" value="" class="post" />&nbsp;&nbsp;{S_SMART_DELETE_SELECT}&nbsp;&nbsp;<input type="submit" name="ref_kill" value="{L_REFERER_DELETE}" class="mainoption" />
+	{L_REFERER_KILL}&nbsp;&nbsp;<input type="text" name="ref_kill_text" value="" class="post" />&nbsp;&nbsp;{S_SMART_DELETE_SELECT}&nbsp;&nbsp;<input type="submit" name="ref_kill" value="{L_REFERER_DELETE}" class="btn-primary" />
 </div>
 </form>
 
@@ -53,8 +53,8 @@ function toggle_check_all()
 <!-- END refersrow -->
 <tr>
 	<td class="cat" colspan="9" height="28">
-		<input type="submit" name="delete_sub" value="{L_DELETE}" class="liteoption" />
-		<input type="submit" name="clear" value="{L_CLEAR}" class="liteoption" />
+		<input type="submit" name="delete_sub" value="{L_DELETE}" class="btn-small" />
+		<input type="submit" name="clear" value="{L_CLEAR}" class="btn-small" />
 	</td>
 </tr>
 </table>
@@ -66,7 +66,7 @@ function toggle_check_all()
 	<td align="left"><span class="pagination">{PAGINATION}</span></td>
 	<td align="right" valign="top" nowrap="nowrap">
 		<form method="post" action="{S_MODE_ACTION}">
-		<span class="genmed">{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}:&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;{L_REFERER_GROUP_BY}:&nbsp;{S_GROUP_BY_SELECT}&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" /></span>
+		<span class="genmed">{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}:&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;{L_REFERER_GROUP_BY}:&nbsp;{S_GROUP_BY_SELECT}&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary" /></span>
 		</form>
 	</td>
 </tr>

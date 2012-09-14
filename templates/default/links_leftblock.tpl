@@ -23,7 +23,7 @@
 				{L_USERNAME}:<br /><input class="post" type="text" name="username" size="24" maxlength="40" value="" /><br />
 				{L_PASSWORD}:<br /><input class="post" type="password" name="password" size="24" maxlength="32" /><br /><br />
 				<span class="gensmall">&nbsp;<input type="checkbox" name="autologin" />&nbsp;{L_REMEMBER_ME}&nbsp;</span><br /><br />
-				<input type="hidden" name="redirect" value="{U_SITE_LINKS}" /><input type="submit" name="login" class="mainoption" value="{L_LOGIN}" /><br /><br />
+				<input type="hidden" name="redirect" value="{U_SITE_LINKS}" /><input type="submit" name="login" class="btn-primary" value="{L_LOGIN}" /><br /><br />
 			</div>
 		</form>
 		</td>
@@ -45,7 +45,7 @@
 			<b>{L_LINK_DESC}</b><br /><textarea name="link_desc" cols="15" rows="4" class="post" style="width: 160px"></textarea><br /><br />
 		</td>
 	</tr>
-	<tr><td class="cat"><input type="submit" name="addlink" value="{L_SUBMIT}" class="mainoption" /></td></tr>
+	<tr><td class="cat"><input type="submit" name="addlink" value="{L_SUBMIT}" class="btn-primary" /></td></tr>
 	</table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 	</form>
 	<!-- END submit -->

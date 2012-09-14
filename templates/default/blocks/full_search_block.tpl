@@ -151,7 +151,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td align="center"><br /><input class="mainoption" type="submit" value="{L_SEARCH}" /></td>
+		<td align="center"><br /><input class="btn" type="submit" value="{L_SEARCH}" /></td>
 	</tr>
 
 </table>

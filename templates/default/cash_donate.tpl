@@ -34,8 +34,8 @@
 <tr>
 	<td class="cat" colspan="2">
 	{S_HIDDEN_FIELDS}
-	<input type="submit" name="submit" value="{L_DONATE}" class="mainoption" />&nbsp;&nbsp;
-	<input type="reset" value="{L_RESET}" class="liteoption" />
+	<input type="submit" name="submit" value="{L_DONATE}" class="btn" />&nbsp;&nbsp;
+	<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>{IMG_TBR}

@@ -54,7 +54,7 @@ function attach_rules(forum_id)
 <form action="{S_POST_ACTION}" method="post" name="post" onsubmit="return checkForm(this);" {S_FORM_ENCTYPE}>
 <!-- BEGIN save_draft_confirm -->
 {IMG_THL}{IMG_THC}<span class="forumlink">{L_DRAFTS}</span>{IMG_THR}<table class="forumlinenb" width="100%" cellspacing="0" cellpadding="0">
-<tr><td class="row1g">{L_DRAFT_CONFIRM}<br /><br /><input type="submit" name="draft_confirm" value="{L_YES}" class="mainoption" /></td></tr>
+<tr><td class="row1g">{L_DRAFT_CONFIRM}<br /><br /><input type="submit" name="draft_confirm" value="{L_YES}" class="btn btn btn-primary" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 <br />
 <!-- END save_draft_confirm -->
@@ -80,7 +80,7 @@ function attach_rules(forum_id)
 <!-- BEGIN switch_privmsg -->
 <tr>
 	<td class="row1"><span class="gen"><b>{L_USERNAME}</b></span></td>
-	<td class="row2"><span class="genmed"><input type="text" class="post" name="username" maxlength="25" size="25" tabindex="1" value="{USERNAME}" {S_AJAX_PM_USER_CHECK} /><span id="pm_username_select">&nbsp;</span>&nbsp;<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="liteoption" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=200,resizable=yes'); return false;" /></span></td>
+	<td class="row2"><span class="genmed"><input type="text" class="post" name="username" maxlength="25" size="25" tabindex="1" value="{USERNAME}" {S_AJAX_PM_USER_CHECK} /><span id="pm_username_select">&nbsp;</span>&nbsp;<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="btn" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=200,resizable=yes'); return false;" /></span></td>
 </tr>
 <tr id="pm_username_error_tbl" style="display: none;">
 	<td class="row1">&nbsp;</td>
@@ -170,12 +170,12 @@ function attach_rules(forum_id)
 <!-- ENDIF -->
 <tr>
 	<td class="catBottom" colspan="2">
-		<input type="button" tabindex="8" class="liteoption" value="{L_POST_HIGHLIGHT}" onclick="copymetasearch();" />&nbsp;
-		<input type="submit" tabindex="9" name="preview" class="liteoption" value="{L_PREVIEW}" />&nbsp;
+		<input type="button" tabindex="8" class="btn" value="{L_POST_HIGHLIGHT}" onclick="copymetasearch();" />&nbsp;
+		<input type="submit" tabindex="9" name="preview" class="btn" value="{L_PREVIEW}" />&nbsp;
 		<!-- BEGIN allow_drafts -->
-		<input type="submit" tabindex="10" name="draft" class="altoption" value="{L_DRAFT_SAVE}" />&nbsp;
+		<input type="submit" tabindex="10" name="draft" class="btn btn-info" value="{L_DRAFT_SAVE}" />&nbsp;
 		<!-- END allow_drafts -->
-		<input type="submit" accesskey="s" tabindex="11" name="post" class="mainoption" value="{L_SUBMIT}" />
+		<input type="submit" accesskey="s" tabindex="11" name="post" class="btn btn btn-primary" value="{L_SUBMIT}" />
 	</td>
 </tr>
 <tr>
@@ -277,8 +277,8 @@ function attach_rules(forum_id)
 <tr>
 	<td class="cat" colspan="2">
 		{S_HIDDEN_FORM_FIELDS}
-		<input type="submit" tabindex="12" name="preview" class="liteoption" value="{L_PREVIEW}" />&nbsp;
-		<input type="submit" accesskey="s" tabindex="13" name="post" class="mainoption" value="{L_SUBMIT}" />
+		<input type="submit" tabindex="12" name="preview" class="btn btn-primary" value="{L_PREVIEW}" />&nbsp;
+		<input type="submit" accesskey="s" tabindex="13" name="post" class="btn btn-primary" value="{L_SUBMIT}" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

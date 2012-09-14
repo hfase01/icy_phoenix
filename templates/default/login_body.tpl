@@ -37,7 +37,7 @@
 		<!-- END switch_allow_autologin -->
 		<tr>
 			<td align="left">&nbsp;</td>
-			<td align="left" style="padding-bottom: 10px;">{S_HIDDEN_FIELDS}<input type="submit" name="login" class="mainoption" value="{L_LOGIN}" /></td>
+			<td align="left" style="padding-bottom: 10px;">{S_HIDDEN_FIELDS}<input type="submit" name="login" class="btn-primary" value="{L_LOGIN}" /></td>
 		</tr>
 		</table>
 	</td>

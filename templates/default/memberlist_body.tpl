@@ -12,7 +12,7 @@
 		<span class="genmed">
 			{L_USERS_PER_PAGE}&nbsp;<input type="text" name="users_per_page" value="{S_USERS_PER_PAGE}" size="5" class="post" />&nbsp;
 			{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}:&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;
-			<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />
+			<input type="submit" name="submit" value="{L_SUBMIT}" class="btn" />
 		</span>
 	</td>
 </tr>

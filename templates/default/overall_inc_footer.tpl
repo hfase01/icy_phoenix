@@ -15,3 +15,4 @@
 <!-- IF FOOTER_BANNER_BLOCK -->
 <tr><td width="100%" colspan="3">{FOOTER_BANNER_BLOCK}</td></tr>
 <!-- ENDIF -->
+<script src="{FULL_SITE_PATH}{T_TPL_PATH}js/bootstrap.min.js"></script>

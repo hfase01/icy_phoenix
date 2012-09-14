@@ -21,7 +21,7 @@
 	<!-- END avatar_row -->
 	<tr>
 		<td class="cat" colspan="{S_COLSPAN}">{S_HIDDEN_FIELDS}
-			<input type="submit" name="submitavatar" value="{L_SELECT_AVATAR}" class="mainoption" />
+			<input type="submit" name="submitavatar" value="{L_SELECT_AVATAR}" class="btn" />
 			&nbsp;&nbsp;
 			<input type="button" name="cancelavatar" value="{L_RETURN_PROFILE}" class="liteoption" />
 		</td>

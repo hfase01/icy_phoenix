@@ -114,7 +114,7 @@
 	<td class="catBottom" colspan="2">
 		<input type="submit" tabindex="9" name="preview" class="liteoption" value="{L_PREVIEW}" />&nbsp;
 		<!-- BEGIN allow_drafts -->
-		<input type="submit" tabindex="10" name="draft" class="altoption" value="{L_DRAFT_SAVE}" />&nbsp;
+		<input type="submit" tabindex="10" name="draft" class="btn-info" value="{L_DRAFT_SAVE}" />&nbsp;
 		<!-- END allow_drafts -->
 		<input type="submit" accesskey="s" tabindex="11" name="post" class="mainoption" value="{L_SUBMIT}" />
 	</td>

@@ -153,7 +153,7 @@ if(GetCookie(tmp) == '2')
 		<tr>
 			<td>&nbsp;</td>
 			<td><b>&nbsp;<a href="{_calendar_box.U_PREC}" class="gen">&laquo;</a>&nbsp;</b></td>
-			<td width="100%" align="center">{_calendar_box.S_MONTH}&nbsp;{_calendar_box.S_YEAR}&nbsp;{_calendar_box.S_FORUM_LIST}&nbsp;<input type="submit" value="{_calendar_box.L_GO}" class="liteoption" /></td>
+			<td width="100%" align="center">{_calendar_box.S_MONTH}&nbsp;{_calendar_box.S_YEAR}&nbsp;{_calendar_box.S_FORUM_LIST}&nbsp;<input type="submit" value="{_calendar_box.L_GO}" class="btn" /></td>
 			<td><b>&nbsp;<a href="{_calendar_box.U_NEXT}" class="gen">&raquo;</a>&nbsp;</b></td>
 			<td>&nbsp;</td>
 		</tr>

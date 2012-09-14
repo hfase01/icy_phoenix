@@ -68,7 +68,7 @@ function select_switch(status)
 	<td class="catBottom" colspan="8">
 		{S_HIDDEN_FIELDS}
 		<!-- BEGIN switch_upi2db_on -->
-		<input type="submit" class="mainoption" value="{L_SUBMIT_MARK_READ}" />
+		<input type="submit" class="btn" value="{L_SUBMIT_MARK_READ}" />
 		<input name="mar" type="hidden" value="1" />
 		<!-- END switch_upi2db_on -->
 	</td>

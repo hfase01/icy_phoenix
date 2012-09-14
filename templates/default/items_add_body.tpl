@@ -19,8 +19,8 @@
 <tr>
 	<td class="cat" colspan="2">
 		{S_HIDDEN_FIELDS}
-		<input type="submit" name="save" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-		<input type="reset" value="{L_RESET}" class="liteoption" />
+		<input type="submit" name="save" value="{L_SUBMIT}" class="btn-primary" />&nbsp;&nbsp;
+		<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

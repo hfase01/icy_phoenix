@@ -25,7 +25,7 @@ function toggle_check_all()
 	<td class="row1" nowrap="nowrap"><span class="gen">{L_SPLIT_FORUM}</span></td>
 	<td class="row2" colspan="2">{S_FORUM_SELECT}</td>
 </tr>
-<tr><td class="cat" colspan="3"><input class="liteoption" type="submit" name="split_type_all" value="{L_SPLIT_POSTS}" />&nbsp;&nbsp;<input class="liteoption" type="submit" name="split_type_beyond" value="{L_SPLIT_AFTER}" /></td></tr>
+<tr><td class="cat" colspan="3"><input class="btn-small" type="submit" name="split_type_all" value="{L_SPLIT_POSTS}" />&nbsp;&nbsp;<input class="btn-small" type="submit" name="split_type_beyond" value="{L_SPLIT_AFTER}" /></td></tr>
 <tr><td class="spaceRow" colspan="3"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
 <tr>
 	<th>{L_AUTHOR}</th>
@@ -47,8 +47,8 @@ function toggle_check_all()
 <tr>
 	<td class="cat" colspan="3">
 		{S_HIDDEN_FIELDS}
-		<input class="liteoption" type="submit" name="split_type_all" value="{L_SPLIT_POSTS}" />&nbsp;&nbsp;
-		<input class="liteoption" type="submit" name="split_type_beyond" value="{L_SPLIT_AFTER}" />
+		<input class="btn-small" type="submit" name="split_type_all" value="{L_SPLIT_POSTS}" />&nbsp;&nbsp;
+		<input class="btn-small" type="submit" name="split_type_beyond" value="{L_SPLIT_AFTER}" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

@@ -150,7 +150,7 @@ for ($i = 0; $i < sizeof($exchange); $i++)
 		$row_class = (((!(($j - 1) % 3)) || (!(($i - 1) % 3))) ? $theme['td_class2'] : $theme['td_class1']);
 
 		$text = (($exchange_table[$exchange[$i]['id']][$exchange[$j]['id']])? ('1 : ' . ($exchange[$j]['exchange'] / $exchange[$i]['exchange'])):$lang['Disabled']);
-		$button = '<input type="submit" style="width:75" name="exchange_' . $exchange[$i]['id'] . '[' . $exchange[$j]['id'] . ']" value="' . $text . '" class="liteoption" />';
+		$button = '<input type="submit" style="width:75" name="exchange_' . $exchange[$i]['id'] . '[' . $exchange[$j]['id'] . ']" value="' . $text . '" class="btn" />';
 
 		$template->assign_block_vars('siderow.entry',array(
 			'ROW_CLASS' => $row_class,

@@ -13,7 +13,7 @@
 	<span class="genmed">
 		<b>{L_NEW_POSTER}</b>:&nbsp;<input type="text" class="post" name="username" id="username" maxlength="50" size="20" {S_AJAX_USER_CHECK} />&nbsp;
 		<span id="username_list" style="display:none;">&nbsp;<span id="username_select">&nbsp;</span></span>
-		<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="liteoption" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes'); return false;" />
+		<input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="btn" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes'); return false;" />
 	</span>
 	</td>
 </tr>
@@ -21,8 +21,8 @@
 <tr>
 <td class="catBottom" align="center">
 	{S_HIDDEN_FIELDS}
-	<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;&nbsp;
-	<input type="submit" name="reset" value="{L_RESET}" class="liteoption" />
+	<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary" />&nbsp;&nbsp;&nbsp;
+	<input type="submit" name="reset" value="{L_RESET}" class="btn" />
 </td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

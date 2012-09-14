@@ -46,7 +46,7 @@ function checkForm()
 		<form method="post" action="{U_SITE_SEARCH}">
 			<span class="genmed">
 				{L_SEARCH_SITE_TITLE}<input type="text" style="width: 200px" class="post" name="search_keywords" size="30" />&nbsp;
-				<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;
+				<input type="submit" name="submit" value="{L_SUBMIT}" class="btn-primary" />&nbsp;
 			</span>
 		</form>
 		</td>
