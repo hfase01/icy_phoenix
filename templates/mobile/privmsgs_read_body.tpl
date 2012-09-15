@@ -42,10 +42,10 @@
 
 <div class="block-empty">
 	{REPLY_PM_IMG} {QUOTE_PM_IMG} {EDIT_PM_IMG}<br />
-	<input type="submit" name="save" value="{L_SAVE_MSG}" class="liteoption" />&nbsp;&nbsp;
-	<input type="submit" name="delete" value="{L_DELETE_MSG}" class="liteoption" />&nbsp;
+	<input type="submit" name="save" value="{L_SAVE_MSG}" class="btn" />&nbsp;&nbsp;
+	<input type="submit" name="delete" value="{L_DELETE_MSG}" class="btn" />&nbsp;
 	<!-- BEGIN switch_attachments -->
-	<input type="submit" name="pm_delete_attach" value="{L_DELETE_ATTACHMENTS}" class="liteoption" />
+	<input type="submit" name="pm_delete_attach" value="{L_DELETE_ATTACHMENTS}" class="btn" />
 	<!-- END switch_attachments -->
 </div>
 

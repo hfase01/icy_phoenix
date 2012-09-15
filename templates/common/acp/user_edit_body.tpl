@@ -422,7 +422,7 @@ function ColorExample(ColorCode)
 <!-- BEGIN avatar_local_gallery -->
 <tr>
 	<td class="row1"><span class="gen">{L_AVATAR_GALLERY}</span></td>
-	<td class="row2"><input type="submit" name="avatargallery" value="{L_SHOW_GALLERY}" class="liteoption" /></td>
+	<td class="row2"><input type="submit" name="avatargallery" value="{L_SHOW_GALLERY}" class="btn" /></td>
 </tr>
 <!-- END avatar_local_gallery -->
 <!-- BEGIN switch_gravatar -->
@@ -519,6 +519,6 @@ function ColorExample(ColorCode)
 	<td class="row1"><span class="gen"><strong><i>{L_DELETE_USER}</i></strong></span></td>
 	<td class="row2"><input type="checkbox" name="deleteuser" />&nbsp;{L_DELETE_USER_EXPLAIN}</td>
 </tr>
-<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>

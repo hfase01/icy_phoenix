@@ -45,7 +45,7 @@
 <tr>
 	<td class="cat" colspan="9" align="center">
 		{S_HIDDEN_FIELDS}
-		<input type="submit" name="add" value="{L_CMS_BLOCK_SETTINGS_INSTALL}" class="liteoption" />
+		<input type="submit" name="add" value="{L_CMS_BLOCK_SETTINGS_INSTALL}" class="btn" />
 	</td>
 </tr>
 <!-- ENDIF -->

@@ -72,7 +72,7 @@
 	<td class="row2"><input class="post" type="text" size="20" maxlength="255" name="news_rss_image_desc" value="{RSS_IMG_DESC}" /></td>
 </tr>
 <tr>
-	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td>
+	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td>
 </tr>
 </table>
 </form>

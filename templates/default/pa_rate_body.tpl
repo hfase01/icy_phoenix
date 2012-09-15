@@ -39,7 +39,7 @@ function checkRateForm()
 		<input type="hidden" name="file_id" value="{ID}" />
 	</td>
 </tr>
-<tr><td colspan="2" class="cat" align="center"><input class="liteoption" type="submit" value="{L_RATE}" name="submit">&nbsp;</td></tr>
+<tr><td colspan="2" class="cat" align="center"><input class="btn" type="submit" value="{L_RATE}" name="submit">&nbsp;</td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 <br />

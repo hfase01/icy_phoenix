@@ -43,7 +43,7 @@
 	<td class="{userrow.ROW_CLASS} row-center"><input type="checkbox" name="allow_pm_user_{userrow.ID}" {userrow.ALLOW_PM}></td>
 	<td class="{userrow.ROW_CLASS} row-center"><input type="checkbox" name="allow_avatar_user_{userrow.ID}" {userrow.ALLOW_AVATAR}></td>
 	<td class="{userrow.ROW_CLASS} row-center"><input type="checkbox" name="active_user_{userrow.ID}" {userrow.ACTIVE}></td>
-	<td class="{userrow.ROW_CLASS} row-center"><input type="submit" name="edit_user_{userrow.ID}" value="{L_EDIT_LIST}" class="liteoption"></td>
+	<td class="{userrow.ROW_CLASS} row-center"><input type="submit" name="edit_user_{userrow.ID}" value="{L_EDIT_LIST}" class="btn"></td>
 </tr>
 <!-- END userrow -->
 <tr><td class="cat" colspan="7" align="center" height="28"><input type="hidden" name="mode" value="{S_MODE}" />&nbsp;</td></tr>

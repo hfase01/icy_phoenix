@@ -84,8 +84,8 @@
 	<td class="cat" align="center">
 		{S_HIDDEN_FIELDS}
 		<input type="submit" name="save" class="mainoption" value="{L_SUBMIT}" />&nbsp;&nbsp;
-		<input type="submit" name="preview" class="liteoption" value="{L_PREVIEW}" />&nbsp;&nbsp;
-		<input type="reset" name="reset" class="liteoption" value="{L_RESET}" />
+		<input type="submit" name="preview" class="btn" value="{L_PREVIEW}" />&nbsp;&nbsp;
+		<input type="reset" name="reset" class="btn" value="{L_RESET}" />
 	</td>
 </tr>
 </table>

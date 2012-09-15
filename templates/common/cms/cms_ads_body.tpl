@@ -20,7 +20,7 @@
 </tr>
 <!-- END ads_cfg -->
 <tr><td class="spaceRow" colspan="2"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
-<tr><td colspan="2" align="center" class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="update" value="{L_CMS_SAVE_CHANGES}" class="liteoption" /></td></tr>
+<tr><td colspan="2" align="center" class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="update" value="{L_CMS_SAVE_CHANGES}" class="btn" /></td></tr>
 </table>
 
 <table class="forumline" width="100%" cellspacing="0" cellpadding="0" border="0">
@@ -48,7 +48,7 @@
 <tr><td colspan="9" class="row1 row-center">{L_AD_NO_ADS}</td></tr>
 <!-- END no_ads -->
 <tr><td class="spaceRow" colspan="9"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
-<tr><td colspan="9" align="center" class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="update" value="{L_CMS_SAVE_CHANGES}" class="liteoption" />&nbsp;&nbsp;<input type="submit" value="{L_AD_ADD}" class="mainoption" /></td></tr>
+<tr><td colspan="9" align="center" class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="update" value="{L_CMS_SAVE_CHANGES}" class="btn" />&nbsp;&nbsp;<input type="submit" value="{L_AD_ADD}" class="mainoption" /></td></tr>
 </table>
 </form>
 

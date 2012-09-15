@@ -33,7 +33,7 @@
 <!-- BEGIN cashrow -->
 	<td class="row2 row-center" width="{entryrow.CELLWIDTH}%"><select name="{entryrow.cashrow.S_TYPE_FIELD}" style="width: 100;"><option value="0" selected="selected">{L_OMIT}</option><option value="1">{L_ADD}</option><option value="2">{L_REMOVE}</option><option value="3">{L_SET}</option></select></td>
 <!-- END cashrow -->
-	<td class="row3 row-center" width="{entryrow.REMAINDERWIDTH}%" rowspan="2"><input name="submit" type="submit" value="{L_UPDATE}" class="liteoption" /></td>
+	<td class="row3 row-center" width="{entryrow.REMAINDERWIDTH}%" rowspan="2"><input name="submit" type="submit" value="{L_UPDATE}" class="btn" /></td>
 	<td class="row1 row-center" width="0">&nbsp;</td>
 </tr>
 <tr>

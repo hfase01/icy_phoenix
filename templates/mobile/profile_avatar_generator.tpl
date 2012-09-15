@@ -107,7 +107,7 @@
 	<td class="catBottom" colspan="5">{S_HIDDEN_FIELDS}
 		<input type="submit" name="submitgenava" value="{L_SUBMIT_AVATAR}" class="mainoption" />
 		&nbsp;&nbsp;
-		<input type="submit" name="cancelavatar" value="{L_RETURN_PROFILE}" class="liteoption" />
+		<input type="submit" name="cancelavatar" value="{L_RETURN_PROFILE}" class="btn" />
 	</td>
 </tr>
 <!-- ENDIF -->

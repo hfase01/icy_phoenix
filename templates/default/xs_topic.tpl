@@ -190,7 +190,7 @@ if($can_reply)
 		<input type="hidden" name="t" value="<?php echo $topic_id; ?>" />
 		<input type="hidden" name="sid" value="<?php echo $user->data['session_id']; ?>" />
 		<input type="submit" tabindex="5" name="preview" class="btn-small" value="<?php echo $lang['Preview']; ?>" />&nbsp;
-		<input type="submit" accesskey="s" tabindex="6" name="post" class="btn-large" value="<?php echo $lang['Submit']; ?>" />
+		<input type="submit" accesskey="s" tabindex="6" name="post" class="btn" value="<?php echo $lang['Submit']; ?>" />
 	</td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

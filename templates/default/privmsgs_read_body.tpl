@@ -60,7 +60,7 @@ ob_start();
 		<input type="hidden" name="mode" value="reply" />
 		<input type="hidden" name="t" value="<?php echo $privmsgs_id; ?>" />
 		<input type="hidden" name="sid" value="<?php echo $user->data['session_id']; ?>" />
-		<input type="submit" tabindex="5" name="preview" class="liteoption" value="<?php echo $lang['Preview']; ?>" />&nbsp;
+		<input type="submit" tabindex="5" name="preview" class="btn" value="<?php echo $lang['Preview']; ?>" />&nbsp;
 		<input type="submit" accesskey="s" tabindex="6" name="post" class="btn" value="<?php echo $lang['Submit']; ?>" />
 	</td>
 </tr>
@@ -146,10 +146,10 @@ message[{privmsgs_id}] = " user=\"{RECIPIENT_QQ}\"]{PLAIN_MESSAGE}[/";
 	<tr><td class="spaceRow" colspan="2"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
 	<tr>
 		<td class="cat" colspan="2">
-			<input type="submit" name="save" value="{L_SAVE_MSG}" class="liteoption" />&nbsp;&nbsp;
-			<input type="submit" name="delete" value="{L_DELETE_MSG}" class="liteoption" />&nbsp;
+			<input type="submit" name="save" value="{L_SAVE_MSG}" class="btn" />&nbsp;&nbsp;
+			<input type="submit" name="delete" value="{L_DELETE_MSG}" class="btn" />&nbsp;
 			<!-- BEGIN switch_attachments -->
-			<input type="submit" name="pm_delete_attach" value="{L_DELETE_ATTACHMENTS}" class="liteoption" />
+			<input type="submit" name="pm_delete_attach" value="{L_DELETE_ATTACHMENTS}" class="btn" />
 			<!-- END switch_attachments -->
 		</td>
 	</tr>

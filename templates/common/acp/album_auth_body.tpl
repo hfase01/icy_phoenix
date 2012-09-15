@@ -26,7 +26,7 @@
 	<td class="{grouprow.CLASS}h row-center" style="background: none;"><input name="delete[]" type="checkbox" {grouprow.DELETE_CHECKED} value="{grouprow.GROUP_ID}" /></td>
 </tr>
 <!-- END grouprow -->
-<tr><td class="cat" align="center" colspan="8"><input type="reset" value="{L_RESET}" class="liteoption" />&nbsp;&nbsp;<input name="submit" type="submit" value="{L_SUBMIT}" class="btn-primary" /></td></tr>
+<tr><td class="cat" align="center" colspan="8"><input type="reset" value="{L_RESET}" class="btn" />&nbsp;&nbsp;<input name="submit" type="submit" value="{L_SUBMIT}" class="btn-primary" /></td></tr>
 </table>
 </form>
 

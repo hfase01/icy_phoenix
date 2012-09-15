@@ -30,7 +30,7 @@
 	<td class="row2 row-center-small"><input type="checkbox" name="topic_id_list[]" value="{searchresults.TOPIC_ID}" /></td>
 </tr>
 <!-- END searchresults -->
-<tr><td class="catBottom" colspan="7">{S_HIDDEN_FIELDS}<input type="submit" name="delete" class="liteoption" value="{L_DELETE}" /></td></tr>
+<tr><td class="catBottom" colspan="7">{S_HIDDEN_FIELDS}<input type="submit" name="delete" class="btn" value="{L_DELETE}" /></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 

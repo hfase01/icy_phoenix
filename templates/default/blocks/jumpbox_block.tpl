@@ -10,5 +10,5 @@ function redirect_{JUMPBOX_ID}(form)
 // ]]>
 </script>
 <div style="text-align:{MENU_JUMPBOX_ALIGN};">
-{MAIN_MENU_NAME}:&nbsp;<form>{MENU_JUMPBOX}&nbsp;<input class="liteoption jumpbox" type ="button" value="{MENU_JUMPBOX_GO}" onclick="redirect_{JUMPBOX_ID}(this.form)"></form>
+{MAIN_MENU_NAME}:&nbsp;<form>{MENU_JUMPBOX}&nbsp;<input class="btn" type ="button" value="{MENU_JUMPBOX_GO}" onclick="redirect_{JUMPBOX_ID}(this.form)"></form>
 </div>

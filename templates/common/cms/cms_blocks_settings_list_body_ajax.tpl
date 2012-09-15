@@ -16,7 +16,7 @@ var cmsEditorSettings = {JSON_DATA};
 
 <form method="post" action="{S_BLOCKS_ACTION}" id="add-block-top">
 {S_HIDDEN_FIELDS}
-<input type="submit" name="add" value="{L_CMS_BLOCK_SETTINGS_INSTALL}" class="liteoption" />
+<input type="submit" name="add" value="{L_CMS_BLOCK_SETTINGS_INSTALL}" class="btn" />
 </form>
 
 <table class="forumline" width="100%" cellspacing="0" cellpadding="0">
@@ -29,7 +29,7 @@ var cmsEditorSettings = {JSON_DATA};
 
 <form method="post" action="{S_BLOCKS_ACTION}" id="add-block-bottom">
 {S_HIDDEN_FIELDS}
-<input type="submit" name="add" value="{L_CMS_BLOCK_SETTINGS_INSTALL}" class="liteoption" />
+<input type="submit" name="add" value="{L_CMS_BLOCK_SETTINGS_INSTALL}" class="btn" />
 </form>
 
 <!-- INCLUDE ../common/cms/cms_info_box.tpl -->

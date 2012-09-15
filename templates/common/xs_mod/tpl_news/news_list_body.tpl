@@ -32,6 +32,6 @@
 	<td class="row1 row-center">&nbsp;</td>
 </tr>
 <!-- END no_news -->
-<tr><td class="cat" colspan="5"><input type="submit" class="liteoption" name="addnews" value="{L_CREATE_NEWS}" /></td></tr>
+<tr><td class="cat" colspan="5"><input type="submit" class="btn" name="addnews" value="{L_CREATE_NEWS}" /></td></tr>
 </table>
 </form>

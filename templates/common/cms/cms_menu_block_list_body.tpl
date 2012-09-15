@@ -71,7 +71,7 @@
 		{S_HIDDEN_FIELDS}
 		<input type="submit" name="add_cat" value="{L_CAT_ADD}" class="mainoption" />
 		&nbsp;&nbsp;<input type="submit" name="add" value="{L_MENU_ADD}" class="mainoption" />
-		&nbsp;&nbsp;<input type="submit" name="action_update" value="{L_MENU_UPDATE}" class="liteoption" />
+		&nbsp;&nbsp;<input type="submit" name="action_update" value="{L_MENU_UPDATE}" class="btn" />
 	</td>
 </tr>
 </table>

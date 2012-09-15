@@ -84,7 +84,7 @@ function check()
 <!-- <body onload="disable_cat_list();"> -->
 <form method="post" action="{S_FILE_ACTION}" name="form">
 <div class="forumline genmed" style="text-align: center; margin-top: 10px; padding: 5px;">
-<b>{L_MCP_EXPLAIN}</b>&nbsp;&raquo;&nbsp;<b><span class="genmed">{L_MODE}:</span></b>&nbsp;<select name="mode_js" onchange="disable_cat_list();">{S_MODE_SELECT}</select>&nbsp;&nbsp;&nbsp;<b><span class="genmed">{L_CATEGORY}:</span></b>&nbsp;{S_CAT_LIST}&nbsp;&nbsp;&nbsp;<input type="submit" class="liteoption" name="go" value="{L_GO}" />
+<b>{L_MCP_EXPLAIN}</b>&nbsp;&raquo;&nbsp;<b><span class="genmed">{L_MODE}:</span></b>&nbsp;<select name="mode_js" onchange="disable_cat_list();">{S_MODE_SELECT}</select>&nbsp;&nbsp;&nbsp;<b><span class="genmed">{L_CATEGORY}:</span></b>&nbsp;{S_CAT_LIST}&nbsp;&nbsp;&nbsp;<input type="submit" class="btn" name="go" value="{L_GO}" />
 </div>
 {S_HIDDEN_FIELDS}
 </form>
@@ -113,8 +113,8 @@ function check()
 <tr>
 	<td class="cat" align="center">
 		{S_HIDDEN_FIELDS}
-		<input type="submit" class="liteoption" name="approve" value="{L_APPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
-		<input type="submit" class="liteoption" name="unapprove" value="{L_UNAPPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
+		<input type="submit" class="btn" name="approve" value="{L_APPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
+		<input type="submit" class="btn" name="unapprove" value="{L_UNAPPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
 	</td>
 </tr>
 </table>

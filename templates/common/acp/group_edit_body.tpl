@@ -40,7 +40,7 @@ last_username = '{GROUP_MODERATOR}';
 </tr>
 <tr>
 	<td class="row1"><span class="gen">{L_GROUP_MODERATOR}:</span></td>
-	<td class="row2"><input class="post" type="text" class="post" name="username" id="username" maxlength="50" size="20" value="{GROUP_MODERATOR}" {S_AJAX_USER_CHECK} /><span id="username_list" style="display:none;"><span id="username_select">&nbsp;</span>&nbsp;</span>&nbsp;<input type="button" name="usersubmit" value="{L_FIND_USERNAME}" class="liteoption" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes');" /></td>
+	<td class="row2"><input class="post" type="text" class="post" name="username" id="username" maxlength="50" size="20" value="{GROUP_MODERATOR}" {S_AJAX_USER_CHECK} /><span id="username_list" style="display:none;"><span id="username_select">&nbsp;</span>&nbsp;</span>&nbsp;<input type="button" name="usersubmit" value="{L_FIND_USERNAME}" class="btn" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes');" /></td>
 </tr>
 <tr id="username_error_tbl" style="display:none;">
 	<td class="row1">&nbsp;</td>
@@ -103,7 +103,7 @@ last_username = '{GROUP_MODERATOR}';
 	<td class="cat" colspan="2" align="center">
 	{S_HIDDEN_FIELDS}
 	<input type="submit" name="group_update" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-	<input type="reset" value="{L_RESET}" name="reset" class="liteoption" />
+	<input type="reset" value="{L_RESET}" name="reset" class="btn" />
 	</td>
 </tr>
 </table>

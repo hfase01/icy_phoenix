@@ -205,7 +205,7 @@
 		<fieldset class="permissions phpbb quick">
 			{S_HIDDEN_FIELDS}
 			{S_FORM_TOKEN}
-			<input type="submit" class="liteoption" name="paction[delete]" value="{L_REMOVE_PERMISSIONS}" style="width: 46% !important;" /> &nbsp; <input class="mainoption" type="submit" name="submit_edit_options" value="{L_EDIT_PERMISSIONS}" style="width: 46% !important;" />
+			<input type="submit" class="btn" name="paction[delete]" value="{L_REMOVE_PERMISSIONS}" style="width: 46% !important;" /> &nbsp; <input class="mainoption" type="submit" name="submit_edit_options" value="{L_EDIT_PERMISSIONS}" style="width: 46% !important;" />
 		</fieldset>
 		</form>
 
@@ -249,7 +249,7 @@
 		<fieldset class="permissions phpbb quick">
 			{S_HIDDEN_FIELDS}
 			{S_FORM_TOKEN}
-			<input class="liteoption" type="submit" name="paction[delete]" value="{L_REMOVE_PERMISSIONS}" style="width: 46% !important;" /> &nbsp; <input class="mainoption" type="submit" name="submit_edit_options" value="{L_EDIT_PERMISSIONS}" style="width: 46% !important;" />
+			<input class="btn" type="submit" name="paction[delete]" value="{L_REMOVE_PERMISSIONS}" style="width: 46% !important;" /> &nbsp; <input class="mainoption" type="submit" name="submit_edit_options" value="{L_EDIT_PERMISSIONS}" style="width: 46% !important;" />
 		</fieldset>
 		</form>
 
@@ -379,7 +379,7 @@
 	<fieldset class="permissions phpbb quick">
 		{S_HIDDEN_FIELDS}
 		{S_FORM_TOKEN}
-		{L_SELECT_TYPE}: <select name="type">{S_PERMISSION_DROPDOWN}</select>&nbsp;&nbsp;<input class="liteoption" type="submit" name="submit" value="{L_GO}" />
+		{L_SELECT_TYPE}: <select name="type">{S_PERMISSION_DROPDOWN}</select>&nbsp;&nbsp;<input class="btn" type="submit" name="submit" value="{L_GO}" />
 	</fieldset>
 	</form>
 <!-- ENDIF -->
@@ -402,7 +402,7 @@
 
 <fieldset class="permissions phpbb quick" style="float: {S_CONTENT_FLOW_END};">
 	<input class="mainoption" type="submit" name="paction[apply_all_permissions]" value="{L_APPLY_ALL_PERMISSIONS}" />
-	<input class="liteoption" type="button" name="cancel" value="{L_RESET}" onclick="document.forms['set-permissions'].reset(); init_colours(active_pmask + active_fmask);" />
+	<input class="btn" type="button" name="cancel" value="{L_RESET}" onclick="document.forms['set-permissions'].reset(); init_colours(active_pmask + active_fmask);" />
 	{S_FORM_TOKEN}
 </fieldset>
 

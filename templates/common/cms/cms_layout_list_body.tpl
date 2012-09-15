@@ -46,7 +46,7 @@ setTimeout(function() { $('#box-updated').fadeOut(1000); }, 3000);
 </tr>
 <!-- END l_row -->
 <tr><td class="spaceRow" colspan="9"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
-<tr><td class="cat" colspan="9" align="center">{S_HIDDEN_FIELDS}<!-- IF S_L_EDIT --><input type="submit" name="action_update" value="{L_CMS_SAVE_CHANGES}" class="liteoption" /><!-- ENDIF --><!-- IF S_L_ADD -->&nbsp;&nbsp;<input type="submit" name="add" value="{L_LAYOUT_ADD}" class="mainoption" /><!-- ENDIF --></td></tr>
+<tr><td class="cat" colspan="9" align="center">{S_HIDDEN_FIELDS}<!-- IF S_L_EDIT --><input type="submit" name="action_update" value="{L_CMS_SAVE_CHANGES}" class="btn" /><!-- ENDIF --><!-- IF S_L_ADD -->&nbsp;&nbsp;<input type="submit" name="add" value="{L_LAYOUT_ADD}" class="mainoption" /><!-- ENDIF --></td></tr>
 </table>
 </form>
 <!-- END layout -->

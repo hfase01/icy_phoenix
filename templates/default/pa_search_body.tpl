@@ -35,7 +35,7 @@
 	<td class="row1"><span class="genmed">{L_SORT_DIR}:&nbsp;</span></td>
 	<td class="row2" valign="middle" nowrap="nowrap"><span class="genmed"><input type="radio" name="sort_order" value="ASC" /> {L_SORT_ASCENDING} <input type="radio" name="sort_order" value="DESC" checked /> {L_SORT_DESCENDING}</span>&nbsp;</td>
 </tr>
-<tr><td class="cat" align="center" colspan="2"><input type="hidden" name="action" value="search"><input class="liteoption" type="submit" name="submit" value="{L_SEARCH}"></td></tr>
+<tr><td class="cat" align="center" colspan="2"><input type="hidden" name="action" value="search"><input class="btn" type="submit" name="submit" value="{L_SEARCH}"></td></tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>
 <br />

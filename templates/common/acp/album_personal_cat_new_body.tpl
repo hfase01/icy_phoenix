@@ -108,7 +108,7 @@ function checkCategoryID()
 			<td class="row2"><select name="cat_approval"><option {APPROVAL_DISABLED} value="{S_USER}">{L_DISABLED}</option><option {APPROVAL_MOD} value="{S_MOD}">{L_MOD}</option><option {APPROVAL_ADMIN} value="{S_ADMIN}">{L_ADMIN}</option></select></td>
 		</tr>
 	<!-- END acp -->
-		<tr><td class="cat" align="center" height="28" colspan="2"><input type="hidden" value="{S_MODE}" name="mode" /><input name="submit" type="submit" value="{L_PANEL_TITLE}" class="liteoption" /></td></tr>
+		<tr><td class="cat" align="center" height="28" colspan="2"><input type="hidden" value="{S_MODE}" name="mode" /><input name="submit" type="submit" value="{L_PANEL_TITLE}" class="btn" /></td></tr>
 		</table>
 	</td>
 </tr>

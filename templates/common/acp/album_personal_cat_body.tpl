@@ -39,7 +39,7 @@
 				<!-- END inc -->
 			<td colspan="{catrow.catfoot.INC_SPAN_ALL}" class="row2" nowrap="nowrap">&nbsp;
 				<input class="post" type="text" name="{catrow.catfoot.S_ADD_NAME}" />&nbsp;
-				<input type="submit" {DISABLE_CREATION} class="liteoption" name="{catrow.catfoot.S_ADD_CAT_SUBMIT}" value="{L_CREATE_CATEGORY}" />
+				<input type="submit" {DISABLE_CREATION} class="btn" name="{catrow.catfoot.S_ADD_CAT_SUBMIT}" value="{L_CREATE_CATEGORY}" />
 			</td>
 		</tr>
 		<tr>
@@ -55,7 +55,7 @@
 		<tr>
 			<td colspan="{INC_SPAN_ALL}" class="cat">
 				<input class="post" type="text" name="name[0]" />&nbsp;
-				<input type="submit" {DISABLE_CREATION} class="liteoption"  name="addcategory[0]" value="{L_CREATE_CATEGORY}" />
+				<input type="submit" {DISABLE_CREATION} class="btn"  name="addcategory[0]" value="{L_CREATE_CATEGORY}" />
 			</td>
 		</tr>
 		<!-- END switch_board_footer -->

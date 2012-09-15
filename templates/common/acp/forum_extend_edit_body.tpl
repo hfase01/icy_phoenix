@@ -216,8 +216,8 @@ function update_icon(newimage)
 	<td class="cat" align="center" colspan="5">{S_HIDDEN_FIELDS}
 		<span class="cattitle">
 			<input type="submit" name="update" value="{L_SUBMIT}" class="mainoption" />&nbsp;
-			<input type="submit" name="cancel" value="{L_CANCEL}" class="liteoption" />&nbsp;
-			<input type="submit" name="refresh" value="{L_REFRESH}" class="liteoption" />&nbsp;
+			<input type="submit" name="cancel" value="{L_CANCEL}" class="btn" />&nbsp;
+			<input type="submit" name="refresh" value="{L_REFRESH}" class="btn" />&nbsp;
 		</span>
 	</td>
 </tr>

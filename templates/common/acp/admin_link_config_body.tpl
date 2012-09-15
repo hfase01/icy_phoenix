@@ -58,7 +58,7 @@
 	<td class="row1"><span class="gensmall"><strong>{L_LINK_PM_NOTIFY}</strong></span></td>
 	<td class="row2"><input type="radio" name="pm_notify" value="1" {PM_YES} /> {L_YES}&nbsp;&nbsp;<input type="radio" name="pm_notify" value="0" {PM_NO} /> {L_NO}</td>
 </tr>
-<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>
 <div align="center"><span class="copyright">Links MOD v1.2.2 by <a href="http://www.phpbb2.de" target="_blank">phpBB2.de</a> and OOHOO and CRLin</span></div>

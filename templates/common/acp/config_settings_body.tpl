@@ -46,6 +46,6 @@
 	<td class="row2" width="50%"><div class="gen">{field.INPUT}</div><!-- IF field.OVERRIDE --><div class="gensmall">{field.OVERRIDE}</div><!-- ENDIF --></td>
 </tr>
 <!-- END field -->
-<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>

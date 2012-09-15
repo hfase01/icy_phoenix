@@ -172,7 +172,7 @@
 <br clear="all" />
 <br />
 <fieldset class="permissions phpbb">
-	{L_CREATE_ROLE}: <input class="post" type="text" name="role_name" value="" maxlength="255" /><!-- IF S_ROLE_OPTIONS --> <select name="options_from"><option value="0" selected="selected">{L_CREATE_ROLE_FROM}</option>{S_ROLE_OPTIONS}</select><!-- ENDIF --> <input class="liteoption" type="submit" name="add" value="{L_SUBMIT}" /><br />
+	{L_CREATE_ROLE}: <input class="post" type="text" name="role_name" value="" maxlength="255" /><!-- IF S_ROLE_OPTIONS --> <select name="options_from"><option value="0" selected="selected">{L_CREATE_ROLE_FROM}</option>{S_ROLE_OPTIONS}</select><!-- ENDIF --> <input class="btn" type="submit" name="add" value="{L_SUBMIT}" /><br />
 	{S_FORM_TOKEN}
 </fieldset>
 

@@ -112,7 +112,7 @@
 <!-- ENDIF -->
 <tr>
 	<td class="catBottom" colspan="2">
-		<input type="submit" tabindex="9" name="preview" class="liteoption" value="{L_PREVIEW}" />&nbsp;
+		<input type="submit" tabindex="9" name="preview" class="btn" value="{L_PREVIEW}" />&nbsp;
 		<!-- BEGIN allow_drafts -->
 		<input type="submit" tabindex="10" name="draft" class="btn-info" value="{L_DRAFT_SAVE}" />&nbsp;
 		<!-- END allow_drafts -->
@@ -218,7 +218,7 @@
 <tr>
 	<td class="cat" colspan="2">
 		{S_HIDDEN_FORM_FIELDS}
-		<input type="submit" tabindex="12" name="preview" class="liteoption" value="{L_PREVIEW}" />&nbsp;
+		<input type="submit" tabindex="12" name="preview" class="btn" value="{L_PREVIEW}" />&nbsp;
 		<input type="submit" accesskey="s" tabindex="13" name="post" class="mainoption" value="{L_SUBMIT}" />
 	</td>
 </tr>

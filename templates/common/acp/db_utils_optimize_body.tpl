@@ -33,10 +33,10 @@
 </tr>
 <tr>
 	<td class="row1 row-center" align="center" colspan="6">
-		<input type="submit" name="configure" value="{L_CONFIGURE}" class="liteoption" />
+		<input type="submit" name="configure" value="{L_CONFIGURE}" class="btn" />
 		<!--
 		&nbsp;&nbsp;
-		<input type="submit" name="reset" value="{L_RESET}" class="liteoption" onclick="document.tablesForm.show_begin_for.value=''" />
+		<input type="submit" name="reset" value="{L_RESET}" class="btn" onclick="document.tablesForm.show_begin_for.value=''" />
 		-->
 	</td>
 </tr>

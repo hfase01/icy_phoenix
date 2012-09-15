@@ -37,7 +37,7 @@
 	<td class="row1"><span class="gen"><strong>{L_DATE_FORMAT}:</strong></span></td>
 	<td class="row2"><span class="gensmall">{DATE_FORMAT_SELECT}</span></td>
 </tr>
-<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="btn" /></td></tr>
 </table>
 
 </form>

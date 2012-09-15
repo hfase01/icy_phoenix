@@ -10,7 +10,7 @@
 	<td width="97%" class="row1"><b>{field_row.FIELD_NAME}</b><br /><span class="gensmall">{field_row.FIELD_DESC}</span></td>
 </tr>
 <!-- END field_row -->
-<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="liteoption" type="submit" value="{L_FIELD_TITLE}" name="submit" /></td></tr>
+<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="btn" type="submit" value="{L_FIELD_TITLE}" name="submit" /></td></tr>
 </table>
 </form>
 

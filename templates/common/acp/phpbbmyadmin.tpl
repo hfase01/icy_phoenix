@@ -8,9 +8,9 @@
 <tr><td><textarea name="this_query" rows="10" cols="100" class="post"></textarea></td></tr>
 <tr>
 	<td class="cat" align="center">
-		<input type="submit" name="repairall" value="{REPAIR_ALL_BUTTON}" class="liteoption" />&nbsp;
-		<input type="submit" name="submit" value="{SUBMIT_BUTTON}" class="liteoption" />&nbsp;
-		<input type="submit" name="optimizeall" value="{OPTIMIZE_ALL_BUTTON}" class="liteoption" />
+		<input type="submit" name="repairall" value="{REPAIR_ALL_BUTTON}" class="btn" />&nbsp;
+		<input type="submit" name="submit" value="{SUBMIT_BUTTON}" class="btn" />&nbsp;
+		<input type="submit" name="optimizeall" value="{OPTIMIZE_ALL_BUTTON}" class="btn" />
 	</td>
 </tr>
 <tr>
@@ -23,7 +23,7 @@
 			<option value="empty">{L_WITH_SELECTED_EMPTY}
 			<option value="drop">{L_WITH_SELECTED_DROP}
 		</select>
-		<input type="submit" name="go_with_selected" value="{SUBMIT_BUTTON}" class="liteoption" />
+		<input type="submit" name="go_with_selected" value="{SUBMIT_BUTTON}" class="btn" />
 	</td>
 </tr>
 </table>

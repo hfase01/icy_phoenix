@@ -121,13 +121,13 @@ function Collapse_Expand_All(collapse)
 		<span class="cattitle">
 			<!-- BEGIN no_root -->
 			<input type="submit" name="edit" value="{L_EDIT_FORUM}" class="mainoption" />&nbsp;
-			<input type="submit" name="create" value="{L_CREATE_FORUM}" class="liteoption" />&nbsp;
-			<input type="submit" name="delete" value="{L_DELETE_FORUM}" class="liteoption" />&nbsp;
-			<input type="submit" name="resync" value="{L_RESYNC_FORUM}" class="liteoption" />
+			<input type="submit" name="create" value="{L_CREATE_FORUM}" class="btn" />&nbsp;
+			<input type="submit" name="delete" value="{L_DELETE_FORUM}" class="btn" />&nbsp;
+			<input type="submit" name="resync" value="{L_RESYNC_FORUM}" class="btn" />
 			<!-- END no_root -->
 			<!-- BEGIN root -->
 			<input type="submit" name="create" value="{L_CREATE_FORUM}" class="mainoption" />&nbsp;
-			<input type="submit" name="resync" value="{L_RESYNC_FORUM}" class="liteoption" />
+			<input type="submit" name="resync" value="{L_RESYNC_FORUM}" class="btn" />
 			<!-- END root -->
 		</span>
 	</td>

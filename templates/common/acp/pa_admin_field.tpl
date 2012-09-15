@@ -9,9 +9,9 @@
 <!-- END field_row -->
 <tr>
 	<td align="center" class="cat" >
-		<input class="liteoption" type="submit" value="add" name="mode" />&nbsp;
-		<input class="liteoption" type="submit" value="edit" name="mode" />&nbsp;
-		<input class="liteoption" type="submit" value="delete" name="mode" />
+		<input class="btn" type="submit" value="add" name="mode" />&nbsp;
+		<input class="btn" type="submit" value="edit" name="mode" />&nbsp;
+		<input class="btn" type="submit" value="delete" name="mode" />
 	</td>
 </tr>
 </table>

@@ -51,7 +51,7 @@ function checkForm(formObj) {
 	<td class="row2"><textarea cols="38" rows="10" name="message">{L_DEFAULTMAIL} {FILE_URL}</textarea></td>
 </tr>
 <tr>
-	<td class="cat" align="center" colspan="2">{S_HIDDEN_FIELDS}<input type="hidden" name="action" value="email"><input type="hidden" name="file_id" value="{ID}"><input class="liteoption" type="submit" name="submit" value="{L_SEMAIL}"></td>
+	<td class="cat" align="center" colspan="2">{S_HIDDEN_FIELDS}<input type="hidden" name="action" value="email"><input type="hidden" name="file_id" value="{ID}"><input class="btn" type="submit" name="submit" value="{L_SEMAIL}"></td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 </form>

@@ -70,7 +70,7 @@ function handleClick(id)
 <strong>{L_SHOW}:</strong>&nbsp;
 {S_HIDDEN_FIELDS}
 <input type="text" class="post" size="5" value="{S_SHOW}" name="show" />&nbsp;
-<input type="submit" value="{S_SORT}" name="change_sort" class="liteoption" />
+<input type="submit" value="{S_SORT}" name="change_sort" class="btn" />
 </span>
 </div>
 </form>

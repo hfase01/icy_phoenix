@@ -82,8 +82,8 @@ function CheckColor(ColorCode)
 <tr>
 	<td class="cat" colspan="6">
 		{S_HIDDEN_FIELDS}
-		<input type="submit" class="liteoption" name="mass_update" value="{L_MASS_UPDATE}" />
-		<input type="submit" class="liteoption" name="new" value="{L_CREATE_NEW_GROUP}" />
+		<input type="submit" class="btn" name="mass_update" value="{L_MASS_UPDATE}" />
+		<input type="submit" class="btn" name="new" value="{L_CREATE_NEW_GROUP}" />
 	</td>
 </tr>
 </table>

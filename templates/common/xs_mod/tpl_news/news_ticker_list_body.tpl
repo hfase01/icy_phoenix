@@ -29,6 +29,6 @@
 	<td class="row1 row-center">&nbsp;</td>
 </tr>
 <!-- END xml_no_feeds -->
-<tr><td class="cat" colspan="4"><input type="submit" class="liteoption"  name="addxml" value="{L_CREATE_FEED}" /></td></tr>
+<tr><td class="cat" colspan="4"><input type="submit" class="btn"  name="addxml" value="{L_CREATE_FEED}" /></td></tr>
 </table>
 </form>

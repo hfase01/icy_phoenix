@@ -28,7 +28,7 @@
 	<td class="row2"><input type="text" class="post" name="modules_dir_set" value="{MODULES_DIR}" /></td>
 </tr>
 <tr>
-	<td class="cat" colspan="2" align="center"><input type="hidden" name="submit_update" value="1" /><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td>
+	<td class="cat" colspan="2" align="center"><input type="hidden" name="submit_update" value="1" /><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td>
 </tr>
 </table>
 </form>

@@ -191,6 +191,6 @@
 	<option value="0"{S_PM_NOTIFY_NO}>{L_NO}</option>
 	</select></td>
 </tr>
-<tr><td align="center" class="cat" colspan="2"><input class="liteoption" type="submit" value="{L_SUBMIT}" name="submit" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td align="center" class="cat" colspan="2"><input class="btn" type="submit" value="{L_SUBMIT}" name="submit" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>

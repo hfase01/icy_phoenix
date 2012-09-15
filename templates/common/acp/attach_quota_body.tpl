@@ -14,7 +14,7 @@
 	<td class="row1 row-center" valign="middle"><input type="text" size="8" maxlength="15" name="add_max_filesize" class="post" value="{MAX_FILESIZE}" /> {S_FILESIZE}</td>
 	<td class="row1 row-center" valign="middle"><input type="checkbox" name="add_quota_check" /></td>
 </tr>
-<tr><td class="cat" colspan="5">{S_HIDDEN_FIELDS}<input type="submit" name="submit" class="liteoption" value="{L_SUBMIT}" /></td></tr>
+<tr><td class="cat" colspan="5">{S_HIDDEN_FIELDS}<input type="submit" name="submit" class="btn" value="{L_SUBMIT}" /></td></tr>
 <tr>
 	<th>{L_DESCRIPTION}</th>
 	<th>{L_SIZE}</th>
@@ -30,7 +30,7 @@
 	<td class="row1 row-center" valign="middle"><input type="checkbox" name="quota_id_list[]" value="{limit_row.QUOTA_ID}" /></td>
 </tr>
 <!-- END limit_row -->
-<tr><td class="cat" colspan="5"> <input type="submit" name="submit" class="liteoption" value="{L_SUBMIT}" /></td></tr>
+<tr><td class="cat" colspan="5"> <input type="submit" name="submit" class="btn" value="{L_SUBMIT}" /></td></tr>
 </table>
 </form>
 

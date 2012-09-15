@@ -11,7 +11,7 @@
 <tr><th colspan="2">{L_DELETE_DISALLOW}</th></tr>
 <tr>
 	<td class="row1"><strong>{L_USERNAME}</strong><br /><span class="gensmall">{L_DELETE_EXPLAIN}</span></td>
-	<td class="row2">{S_DISALLOW_SELECT}&nbsp;<input type="submit" name="delete_name" value="{L_DELETE}" class="liteoption" /></td>
+	<td class="row2">{S_DISALLOW_SELECT}&nbsp;<input type="submit" name="delete_name" value="{L_DELETE}" class="btn" /></td>
 </tr>
 <tr><td class="cat" colspan="2" align="center">&nbsp;</td></tr>
 </table>

@@ -5,7 +5,7 @@
 <table width="100%" cellspacing="2" cellpadding="2" border="0" align="center">
 <tr>
 	<td align="right" nowrap="nowrap"><span class="genmed">{L_VIEW}:&nbsp;{S_VIEW_SELECT}&nbsp;&nbsp;
-	<input type="submit" name="submit" value="{L_SUBMIT}" class="liteoption" />
+	<input type="submit" name="submit" value="{L_SUBMIT}" class="btn" />
 	</span></td>
 </tr>
 </table>
@@ -56,7 +56,7 @@
 	<td class="row1" colspan="2" align="right"><span class="gen">{L_ORDER}:&nbsp;</span></td>
 	<td class="row2" colspan="2" valign="middle">{S_SORT_ORDER}</span></td>
 </tr>
-<tr><td class="cat" colspan="4" align="center">{S_HIDDEN_FIELDS}<input class="liteoption" type="submit" name="search" value="{L_SEARCH}" /></td></tr>
+<tr><td class="cat" colspan="4" align="center">{S_HIDDEN_FIELDS}<input class="btn" type="submit" name="search" value="{L_SEARCH}" /></td></tr>
 </table>
 
 </form>

@@ -85,7 +85,7 @@
 <body onLoad="disable_cat_list();">
 <form method="post" action="{S_FILE_ACTION}" name="form">
 <div style="text-align:right;padding:3px;">
-<span class="genmed"><strong>{L_MODE}:</strong>&nbsp;<select name="mode_js" onchange="disable_cat_list();">{S_MODE_SELECT}</select>&nbsp;<strong>{L_CATEGORY}:</strong>{S_CAT_LIST}&nbsp;&nbsp;<input type="submit" class="liteoption" name="go" value="{L_GO}" /></span>
+<span class="genmed"><strong>{L_MODE}:</strong>&nbsp;<select name="mode_js" onchange="disable_cat_list();">{S_MODE_SELECT}</select>&nbsp;<strong>{L_CATEGORY}:</strong>{S_CAT_LIST}&nbsp;&nbsp;<input type="submit" class="btn" name="go" value="{L_GO}" /></span>
 </div>
 </form>
 
@@ -114,10 +114,10 @@
 <tr>
 	<td class="cat" align="center">
 	{S_HIDDEN_FIELDS}
-	<input type="submit" class="liteoption" name="addfile" value="{L_ADD_FILE}" onclick="set_add_file(true); set_delete_file(false);" />
-	<input type="submit" class="liteoption" name="delete" value="{L_DELETE_FILE}" onclick="set_add_file(false); set_delete_file(true);" />
-	<input type="submit" class="liteoption" name="approve" value="{L_APPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
-	<input type="submit" class="liteoption" name="unapprove" value="{L_UNAPPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
+	<input type="submit" class="btn" name="addfile" value="{L_ADD_FILE}" onclick="set_add_file(true); set_delete_file(false);" />
+	<input type="submit" class="btn" name="delete" value="{L_DELETE_FILE}" onclick="set_add_file(false); set_delete_file(true);" />
+	<input type="submit" class="btn" name="approve" value="{L_APPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
+	<input type="submit" class="btn" name="unapprove" value="{L_UNAPPROVE_FILE}" onclick="set_add_file(false); set_delete_file(false);" />
 	</td>
 </tr>
 </table>

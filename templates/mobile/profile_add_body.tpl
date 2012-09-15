@@ -453,20 +453,20 @@
 <!-- BEGIN switch_avatar_local_gallery -->
 <tr>
 	<td class="row1" width="38%"><span class="gen">{L_AVATAR_GALLERY}:</span></td>
-	<td class="row2"><input type="submit" name="avatargallery" value="{L_SHOW_GALLERY}" class="liteoption" /></td>
+	<td class="row2"><input type="submit" name="avatargallery" value="{L_SHOW_GALLERY}" class="btn" /></td>
 </tr>
 <!-- END switch_avatar_local_gallery -->
 <!-- BEGIN switch_avatar_generator -->
 <tr>
 	<td class="row1"><span class="gen">{L_GENERATE_AVATAR}:</span></td>
-	<td class="row2"><input type="submit" name="avatargenerator" value="{L_AVATAR_GENERATOR}" class="liteoption" /></td>
+	<td class="row2"><input type="submit" name="avatargenerator" value="{L_AVATAR_GENERATOR}" class="btn" /></td>
 </tr>
 <!-- END switch_avatar_generator -->
 <!-- END switch_avatar_block -->
 
 <!-- END switch_cpl_avatar -->
 <tr>
-	<td class="catBottom" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="liteoption" /></td>
+	<td class="catBottom" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" name="reset" class="btn" /></td>
 </tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}
 <!-- BEGIN switch_cpl_menu -->

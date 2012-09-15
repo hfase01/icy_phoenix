@@ -29,7 +29,7 @@
 		<form method="post" action="{S_MODE_ACTION}">
 		<div class="genmed" style="text-align: right; margin-top: 5px; margin-bottom: 5px;">
 			{L_SORT_ORDER}:&nbsp;{S_SORT_ORDER_SELECT}&nbsp;&nbsp;{L_SORT_DIR}:&nbsp;{S_SORT_DIR_SELECT}&nbsp;&nbsp;
-			{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="liteoption" />
+			{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="btn" />
 		</div>
 		</form>
 	</td>

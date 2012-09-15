@@ -14,7 +14,7 @@
 	<td class="row2"><textarea name="license_text" cols="50" rows="10" class="post">{TEXT}</textarea></td>
 </tr>
 <tr>
-	<td align="center" class="cat" colspan="2"><input class="liteoption" type="submit" value="{L_ELICENSETITLE}" name="B1"><input type="hidden" name="action" value="admin"><input type="hidden" name="ad" value="license"><input type="hidden" name="license" value="edit"><input type="hidden" name="edit" value="do"><input type="hidden" name="id" value="{SELECT}"></td>
+	<td align="center" class="cat" colspan="2"><input class="btn" type="submit" value="{L_ELICENSETITLE}" name="B1"><input type="hidden" name="action" value="admin"><input type="hidden" name="ad" value="license"><input type="hidden" name="license" value="edit"><input type="hidden" name="edit" value="do"><input type="hidden" name="id" value="{SELECT}"></td>
 </tr>
 </table>
 </form>
@@ -27,7 +27,7 @@
 {ROW}
 <tr>
 	<td align="center" class="cat" colspan="2">
-		<input class="liteoption" type="submit" value="{L_ELICENSETITLE}" name="B1" />
+		<input class="btn" type="submit" value="{L_ELICENSETITLE}" name="B1" />
 		<input type="hidden" name="action" value="admin" />
 		<input type="hidden" name="ad" value="license" />
 		<input type="hidden" name="license" value="edit" />

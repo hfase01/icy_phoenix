@@ -14,7 +14,7 @@
 			<!-- END grouprow -->
 		</select>
 		<input type="submit" name="confirm" value="{L_GO}" class="mainoption" />
-		<input type="submit" name="cancel" value="{L_CANCEL}" class="liteoption" />
+		<input type="submit" name="cancel" value="{L_CANCEL}" class="btn" />
 		</span>
 	</td>
 </tr>

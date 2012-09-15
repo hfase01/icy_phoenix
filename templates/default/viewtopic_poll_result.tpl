@@ -31,7 +31,7 @@
 
 		<br clear="all" />
 		<!-- IF S_CAN_VOTE -->
-		<span class="gensmall">{L_MAX_VOTES}</span><br /><br /><input type="submit" name="submit" value="{L_SUBMIT_VOTE}" class="liteoption" /><br /><br />
+		<span class="gensmall">{L_MAX_VOTES}</span><br /><br /><input type="submit" name="submit" value="{L_SUBMIT_VOTE}" class="btn" /><br /><br />
 		<!-- ENDIF -->
 		<!-- IF S_DISPLAY_RESULTS -->
 		<b>{L_TOTAL_VOTES} : {TOTAL_VOTES}</b>

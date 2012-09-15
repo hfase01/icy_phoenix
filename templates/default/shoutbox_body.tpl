@@ -30,7 +30,7 @@
 			<!-- BEGIN switch_auth_no_post -->
 			{L_SHOUTBOX_LOGIN}&nbsp;
 			<!-- END switch_auth_no_post -->
-			<input type="submit" class="liteoption" value="{L_SHOUT_REFRESH}" name="refresh" />
+			<input type="submit" class="btn" value="{L_SHOUT_REFRESH}" name="refresh" />
 		</span>
 	</div>
 	</td>

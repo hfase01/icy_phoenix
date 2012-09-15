@@ -43,7 +43,7 @@ function select_switch(status)
 </tr>
 <!-- END table_shadow_row -->
 <tr>
-	<td class="cat" colspan="5"><input type="submit" name="submit" class="liteoption" value="{L_DELETE_MARKED}" /></td>
+	<td class="cat" colspan="5"><input type="submit" name="submit" class="btn" value="{L_DELETE_MARKED}" /></td>
 </tr>
 </table>
 {S_HIDDEN}

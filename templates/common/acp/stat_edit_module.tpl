@@ -43,7 +43,7 @@
 	<td class="row2"><span class="genmed">{S_AUTH_SELECT}</td>
 </tr>
 <tr><td class="row1 row-center" colspan="2"><span class="genmed"><a href="{U_MANAGEMENT}" class="genmed">{L_BACK_TO_MANAGEMENT}</a></span></td></tr>
-<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>
 

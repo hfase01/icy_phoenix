@@ -8,7 +8,7 @@
 	<td class="row1" width="38%"><span class="gen">{L_DL_NAME}:</span></td>
 	<td class="row2"><input type="text" name="cat_title" size="40" maxlength="100" value="{CAT_NAME}" /></td>
 </tr>
-<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 {S_HIDDEN_FIELDS}
 </form>

@@ -51,7 +51,7 @@
 	<td class="row2"><input type="radio" name="shout_allow_guest" value="1" {SHOUT_GUEST_YES} />{L_YES}&nbsp;&nbsp;<input type="radio" name="shout_allow_guest" value="2" {SHOUT_GUEST_READONLY} />{L_SHOUT_GUEST_READONLY}&nbsp;&nbsp;<input type="radio" name="shout_allow_guest" value="0" {SHOUT_GUEST_NO} />{L_NO}</td>
 </tr>
 {BB_USAGE_STATS_ADMIN_TEMPLATE}
-<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>
 <br clear="all" />

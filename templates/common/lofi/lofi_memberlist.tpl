@@ -7,7 +7,7 @@
 		<td align="right" nowrap="nowrap">
 			<span class="genmed">
 				{L_SELECT_SORT_METHOD}:&nbsp;{S_MODE_SELECT}&nbsp;&nbsp;{L_ORDER}&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;
-				<input type="submit" name="submit" value="{L_SUBMIT}" class="liteoption" />
+				<input type="submit" name="submit" value="{L_SUBMIT}" class="btn" />
 			</span>
 		</td>
 	</tr>

@@ -79,6 +79,6 @@
 	<td class="row2">&nbsp;<input type="radio" name="captcha_jpeg" value="1" {S_JPEG_IMAGE_YES} /> JPEG&nbsp;{L_JPEG_QUALITY}:&nbsp;<input class="post" type="text" maxlength="2" size="2" name="captcha_jpeg_quality" value="{JPEG_QUALITY}" />&nbsp;%<br />
 	&nbsp;<input type="radio" name="captcha_jpeg" value="0" {S_JPEG_IMAGE_NO} /> PNG</td>
 </tr>
-<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>

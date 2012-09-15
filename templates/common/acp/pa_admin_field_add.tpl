@@ -36,6 +36,6 @@
 	<td class="row2"><input type="text" class="post" size="6" name="field_order" value="{FIELD_ORDER}" /></td>
 </tr>
 <!-- ENDIF -->
-<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="liteoption" type="submit" value="{L_FIELD_TITLE}" name="submit" /></td></tr>
+<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="btn" type="submit" value="{L_FIELD_TITLE}" name="submit" /></td></tr>
 </table>
 </form>

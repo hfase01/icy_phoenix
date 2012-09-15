@@ -996,7 +996,7 @@ if ($is_auth['auth_edit'] || ($user->data['user_id'] == $row['topic_poster']))
 		$select_title .= '<option value="' . $row['id'] . '">' . htmlspecialchars($addon) . '</option>';
 	}
 	$db->sql_freeresult($result);
-	$select_title .= '</select>&nbsp;<input type="submit" name="quick_title_edit" class="liteoption" value="' . $lang['Edit_title'] . '"/><input type="hidden" name="' . POST_FORUM_URL . '" value="' . $forum_id . '"/><input type="hidden" name="' . POST_TOPIC_URL . '" value="' . $topic_id . '"/></form>';
+	$select_title .= '</select>&nbsp;<input type="submit" name="quick_title_edit" class="btn" value="' . $lang['Edit_title'] . '"/><input type="hidden" name="' . POST_FORUM_URL . '" value="' . $forum_id . '"/><input type="hidden" name="' . POST_TOPIC_URL . '" value="' . $topic_id . '"/></form>';
 	$topic_mod .= $select_title;
 }
 

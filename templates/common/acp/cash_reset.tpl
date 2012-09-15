@@ -16,8 +16,8 @@
 	<td class="cat" colspan="3">
 	{S_HIDDEN_FIELDS}
 	<input type="submit" name="submit" value="{L_SET_CHECKED}" class="mainoption" />&nbsp;&nbsp;
-	<input type="submit" name="submit" value="{L_RECOUNT_CHECKED}" class="liteoption" />&nbsp;&nbsp;
-	<input type="reset" value="{L_RESET}" class="liteoption" />
+	<input type="submit" name="submit" value="{L_RECOUNT_CHECKED}" class="btn" />&nbsp;&nbsp;
+	<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>

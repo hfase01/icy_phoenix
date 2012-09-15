@@ -63,7 +63,7 @@ function checkForm()
 				<form method="post" action="{U_SITE_LINKS}">
 					<span class="genmed">
 						{L_SELECT_SORT_METHOD}:{S_MODE_SELECT}&nbsp;{L_ORDER}:{S_ORDER_SELECT}&nbsp;
-						<input type="submit" name="submit" value="{L_SORT}" class="liteoption" />&nbsp;
+						<input type="submit" name="submit" value="{L_SORT}" class="btn" />&nbsp;
 					</span>
 				</form>
 			</td>

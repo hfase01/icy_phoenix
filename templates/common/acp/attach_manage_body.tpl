@@ -116,7 +116,7 @@
 <tr><td class="row1" colspan="2" align="center"><span class="gen">{L_NO_FTP_EXTENSIONS}</span></td></tr>
 <!-- END switch_no_ftp -->
 <tr>
-	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" />&nbsp;&nbsp;<input type="submit" name="settings" value="{L_TEST_SETTINGS}" class="liteoption" /></td>
+	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" />&nbsp;&nbsp;<input type="submit" name="settings" value="{L_TEST_SETTINGS}" class="btn" /></td>
 </tr>
 </table>
 </form>

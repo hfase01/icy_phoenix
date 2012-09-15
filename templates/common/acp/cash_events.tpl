@@ -8,7 +8,7 @@
 	<form action="{S_CASH_EVENTS_ACTION}" method="post"><input type="hidden" name="mode" value="edit" /><input type="hidden" name="event_name" value="{eventrow.NAME}" />
 	<tr>
 		<td class="row1" width="200">{eventrow.NAME}</td>
-		<td class="row1" width="100"><input type="submit" name="edit" value="{L_EDIT}" class="mainoption" /></td><td class="row1" width="100"><input type="submit" name="delete" value="{L_DELETE}" class="liteoption" /></td>
+		<td class="row1" width="100"><input type="submit" name="edit" value="{L_EDIT}" class="mainoption" /></td><td class="row1" width="100"><input type="submit" name="delete" value="{L_DELETE}" class="btn" /></td>
 	</tr>
 	</form>
 <!-- END eventrow -->

@@ -20,7 +20,7 @@
 	<td class="row1 row-center" valign="middle">{S_ADD_GROUP_SELECT}</td>
 	<td class="row2 row-center" valign="middle"><input type="checkbox" name="add_extension_check" /></td>
 </tr>
-<tr><td class="cat" colspan="5"> {S_HIDDEN_FIELDS} <input type="submit" name="submit" class="liteoption" value="{L_SUBMIT}" /></td></tr>
+<tr><td class="cat" colspan="5"> {S_HIDDEN_FIELDS} <input type="submit" name="submit" class="btn" value="{L_SUBMIT}" /></td></tr>
 <tr>
 	<th>&nbsp;{L_EXPLANATION}&nbsp;</th>
 	<th>&nbsp;{L_EXTENSION}&nbsp;</th>
@@ -38,8 +38,8 @@
 <!-- END extension_row -->
 <tr>
 	<td class="cat" colspan="5">
-	<input type="submit" name="{L_CANCEL}" class="liteoption" value="{L_CANCEL}" onclick="self.location.href='{S_CANCEL_ACTION}'" />
-	<input type="submit" name="submit" class="liteoption" value="{L_SUBMIT}" /></td>
+	<input type="submit" name="{L_CANCEL}" class="btn" value="{L_CANCEL}" onclick="self.location.href='{S_CANCEL_ACTION}'" />
+	<input type="submit" name="submit" class="btn" value="{L_SUBMIT}" /></td>
 </tr>
 </table>
 

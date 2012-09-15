@@ -33,13 +33,13 @@
 <!-- ENDIF -->
 <table class="forumline" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr><th colspan="2">{L_DFILETITLE}</th></tr>
-<tr><td colspan="2" class="cat" align="center" valign="middle"><select name="cat_id" class="forminput">{S_CAT_SELECT}</select>&nbsp;&nbsp;<input class="liteoption" type="submit" value="{L_GO}" name="select_cat" /></td></tr>
+<tr><td colspan="2" class="cat" align="center" valign="middle"><select name="cat_id" class="forminput">{S_CAT_SELECT}</select>&nbsp;&nbsp;<input class="btn" type="submit" value="{L_GO}" name="select_cat" /></td></tr>
 <!-- BEGIN file_list -->
 <tr>
 	<td width="3%" class="row1 row-center" valign="middle"><input type="checkbox" name="select[{file_list.FILE_ID}]" value="yes" {file_list.CHECKBOX} /></td>
 	<td width="97%" class="row1"><span class="gen"> {file_list.FILE_NAME}</span>&nbsp;<span class="gensmall">{file_list.FILE_APPROVED}</span><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="gensmall">{file_list.FILE_DESC}</span></td>
 </tr>
 <!-- END file_list -->
-<tr><td align="center" class="cat" colspan="2"><input class="liteoption" type="submit" value="{L_DFILETITLE}" name="submit" /><input type="hidden" name="file" value="delete"></td></tr>
+<tr><td align="center" class="cat" colspan="2"><input class="btn" type="submit" value="{L_DFILETITLE}" name="submit" /><input type="hidden" name="file" value="delete"></td></tr>
 </table>
 </form>

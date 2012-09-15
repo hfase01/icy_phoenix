@@ -31,6 +31,6 @@
 <!-- BEGIN no_bots -->
 <tr><td colspan="9" class="row1 row-center">{L_NO_BOTS}</td></tr>
 <!-- END no_bots -->
-<tr><td colspan="9" align="center" class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="update" value="{L_BOTS_UPDATE}" class="liteoption" />&nbsp;&nbsp;<input type="submit" value="{L_BOT_ADD}" class="mainoption" /></td></tr>
+<tr><td colspan="9" align="center" class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="update" value="{L_BOTS_UPDATE}" class="btn" />&nbsp;&nbsp;<input type="submit" value="{L_BOT_ADD}" class="mainoption" /></td></tr>
 </table>
 </form>

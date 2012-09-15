@@ -11,7 +11,7 @@
 	<td class="{catrow.ROW_CLASS} row-center"><a href="{catrow.S_MOVE_DOWN}"><img src="{IMG_CMS_ARROW_DOWN}" alt="{L_MOVE_DOWN}" title="{L_MOVE_DOWN}" /></a>&nbsp;<a href="{catrow.S_MOVE_UP}"><img src="{IMG_CMS_ARROW_UP}" alt="{L_MOVE_UP}" title="{L_MOVE_UP}" /></a>&nbsp;<a href="{catrow.S_EDIT_ACTION}"><img src="{IMG_CMS_ICON_EDIT}" alt="{L_EDIT}" title="{L_EDIT}" /></a>&nbsp;<a href="{catrow.S_DELETE_ACTION}"><img src="{IMG_CMS_ICON_DELETE}" alt="{L_DELETE}" title="{L_DELETE}" /></a></td>
 </tr>
 <!-- END catrow -->
-<tr><td class="cat" colspan="3"><input type="hidden" value="new" name="mode" /><input name="submit" type="submit" value="{L_CREATE_CATEGORY}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="3"><input type="hidden" value="new" name="mode" /><input name="submit" type="submit" value="{L_CREATE_CATEGORY}" class="btn" /></td></tr>
 </table>
 </form>
 <div align="center"><span class="copyright">Links MOD v1.2.1 by <a href="http://www.phpbb2.de" target="_blank">phpBB2.de</a> and OOHOO</span></div>

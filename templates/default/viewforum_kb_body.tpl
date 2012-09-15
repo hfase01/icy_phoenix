@@ -6,8 +6,8 @@
 <tr>
 	<td align="left" valign="bottom" width="70%">
 		<!-- IF not S_BOT -->
-		<span class="gensmall">{TOTAL_USERS_ONLINE}&nbsp;</span><br /><span class="gensmall">{LOGGED_IN_USER_LIST}&nbsp;</span><br /><span class="gensmall">{BOT_LIST}&nbsp;</span><br />
-		<span class="btn"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" alt="{L_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" /></a></span>
+		<a class="btn" href="{U_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" />{L_POST_NEW_TOPIC}</a>
+		<a class="btn" href="{U_POST_REPLY_TOPIC}" title="{L_POST_REPLY_TOPIC}" >{L_POST_REPLY_TOPIC}</a>
 		<!-- ELSE -->
 		&nbsp;
 		<!-- ENDIF -->
@@ -74,7 +74,7 @@
 <tr>
 	<td class="cat" valign="middle" colspan="5">
 		<span class="genmed" style="float: right; text-align: right; vertical-align: middle; padding-right: 5px; padding-top: 5px;"><!-- IF S_TIMEZONE -->{S_TIMEZONE}<!-- ELSE -->&nbsp;<!-- ENDIF --></span>
-		<div class="gensmall" style="text-align: left; padding-left: 5px; padding-top: 5px;">{L_DISPLAY_TOPICS}:&nbsp;{S_SELECT_TOPIC_DAYS}&nbsp;<input type="submit" class="liteoption jumpbox" value="{L_GO}" name="submit" /></div>
+		<div class="gensmall" style="text-align: left; padding-left: 5px; padding-top: 5px;">{L_DISPLAY_TOPICS}:&nbsp;{S_SELECT_TOPIC_DAYS}&nbsp;<input type="submit" class="btn" value="{L_GO}" name="submit" /></div>
 	</td>
 </tr>
 <!-- IF S_SHOW_ALPHA_BAR -->

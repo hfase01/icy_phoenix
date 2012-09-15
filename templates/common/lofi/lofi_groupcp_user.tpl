@@ -15,7 +15,7 @@
 			<table width="90%" cellspacing="0" cellpadding="0" border="0">
 				<tr>
 					<td width="40%"><span class="gensmall">{GROUP_MEMBER_SELECT}</span></td>
-					<td align="center" width="30%"><input type="submit" value="{L_VIEW_INFORMATION}" class="liteoption" />{S_HIDDEN_FIELDS}</td>
+					<td align="center" width="30%"><input type="submit" value="{L_VIEW_INFORMATION}" class="btn" />{S_HIDDEN_FIELDS}</td>
 				</tr>
 			</table>
 			</form>
@@ -30,7 +30,7 @@
 		<table width="90%" cellspacing="0" cellpadding="0" border="0">
 			<tr>
 				<td width="40%"><span class="gensmall">{GROUP_PENDING_SELECT}</span></td>
-				<td align="center" width="30%"><input type="submit" value="{L_VIEW_INFORMATION}" class="liteoption" />{S_HIDDEN_FIELDS}</td>
+				<td align="center" width="30%"><input type="submit" value="{L_VIEW_INFORMATION}" class="btn" />{S_HIDDEN_FIELDS}</td>
 			</tr>
 		</table>
 		</form>
@@ -47,7 +47,7 @@
 		<table width="90%" cellspacing="0" cellpadding="0" border="0">
 		<tr>
 			<td width="40%"><span class="gensmall">{GROUP_LIST_SELECT}</span></td>
-			<td align="center" width="30%"><input type="submit" value="{L_VIEW_INFORMATION}" class="liteoption" />{S_HIDDEN_FIELDS}</td>
+			<td align="center" width="30%"><input type="submit" value="{L_VIEW_INFORMATION}" class="btn" />{S_HIDDEN_FIELDS}</td>
 		</tr>
 		</table>
 		</form>

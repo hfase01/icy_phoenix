@@ -100,7 +100,7 @@ function open_postreview(ref)
 <tr>
 	<td class="cat" colspan="2">
 		<form method="post" action="{S_POST_DAYS_ACTION}" style="display: inline;">
-		<span class="genmed">{L_DISPLAY_POSTS}:</span>&nbsp;{S_SELECT_SORT_DAYS}&nbsp;{S_SELECT_SORT_KEY}&nbsp;{S_SELECT_SORT_DIR}&nbsp;<input type="submit" value="{L_GO}" class="liteoption jumpbox" name="submit" />
+		<span class="genmed">{L_DISPLAY_POSTS}:</span>&nbsp;{S_SELECT_SORT_DAYS}&nbsp;{S_SELECT_SORT_KEY}&nbsp;{S_SELECT_SORT_DIR}&nbsp;<input type="submit" value="{L_GO}" class="btn" name="submit" />
 		</form>
 	</td>
 </tr>
@@ -140,8 +140,8 @@ if(GetCookie(tmp) == '2')
 <tr>
 	<td align="left" valign="top">
 		<!-- IF not S_BOT -->
-		<span class="img-btn"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" alt="{L_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}"/></a></span>&nbsp;
-		<span class="img-btn"><a href="{U_POST_REPLY_TOPIC}"><img src="{REPLY_IMG}" alt="{L_POST_REPLY_TOPIC}" title="{L_POST_REPLY_TOPIC}"/></a></span>&nbsp;
+		<a class="btn" href="{U_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" />{L_POST_NEW_TOPIC}</a>
+		<a class="btn" href="{U_POST_REPLY_TOPIC}" title="{L_POST_REPLY_TOPIC}" >{L_POST_REPLY_TOPIC}</a>
 		<!-- IF S_THANKS --><span class="img-btn"><a href="{U_THANKS}"><img src="{THANKS_IMG}" alt="{L_THANKS}" title="{L_THANKS}" /></a></span>&nbsp;<!-- ENDIF -->
 		<!-- ELSE -->
 		&nbsp;
@@ -151,9 +151,9 @@ if(GetCookie(tmp) == '2')
 		<span class="gen">{PAGE_NUMBER}</span><br />
 		<span class="pagination">{PAGINATION}</span><br />
 		<!-- IF S_EXTENDED_PAGINATION -->
-		<div style="margin-top: 3px;"><form method="post" action="{U_VIEW_TOPIC}"><span class="gen"><b>{L_GO_TO_PAGE_NUMBER}</b>&nbsp;<input type="text" name="page_number" value="" size="3" class="post" />&nbsp;&nbsp;<input type="submit" name="submit" value="{L_GO}" class="btn-large" /></span></form></div>
+		<div style="margin-top: 3px;"><form method="post" action="{U_VIEW_TOPIC}"><span class="gen"><b>{L_GO_TO_PAGE_NUMBER}</b>&nbsp;<input type="text" name="page_number" value="" size="3" class="post" />&nbsp;&nbsp;<input type="submit" name="submit" value="{L_GO}" class="btn" /></span></form></div>
 		<!-- ENDIF -->
-		<!-- IF not S_BOT --><div style="margin-top: 3px;"><form action="{FULL_SITE_PATH}{U_SEARCH}" method="post"><input name="search_keywords" type="text" class="post search" style="width: 160px;" value="{L_SEARCH_THIS_TOPIC}" onclick="if(this.value=='{L_SEARCH_THIS_TOPIC}')this.value='';" onblur="if(this.value=='')this.value='{L_SEARCH_THIS_TOPIC}';" /><input type="hidden" name="search_where" value="{FORUM_ID_FULL}" /><input type="hidden" name="search_where_topic" value="{TOPIC_ID_FULL}" />&nbsp;<input type="submit" class="btn-large" value="{L_SEARCH}" /></form></div><!-- ENDIF -->
+		<!-- IF not S_BOT --><div style="margin-top: 3px;"><form action="{FULL_SITE_PATH}{U_SEARCH}" method="post"><input name="search_keywords" type="text" class="post search" style="width: 160px;" value="{L_SEARCH_THIS_TOPIC}" onclick="if(this.value=='{L_SEARCH_THIS_TOPIC}')this.value='';" onblur="if(this.value=='')this.value='{L_SEARCH_THIS_TOPIC}';" /><input type="hidden" name="search_where" value="{FORUM_ID_FULL}" /><input type="hidden" name="search_where_topic" value="{TOPIC_ID_FULL}" />&nbsp;<input type="submit" class="btn" value="{L_SEARCH}" /></form></div><!-- ENDIF -->
 	</td>
 </tr>
 </table>

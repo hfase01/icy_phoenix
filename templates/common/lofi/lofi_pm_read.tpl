@@ -38,9 +38,9 @@
 <br />
 	<div>
 	{S_HIDDEN_FIELDS}
-		<input type="submit" name="save" value="{L_SAVE_MSG}" class="liteoption" />
+		<input type="submit" name="save" value="{L_SAVE_MSG}" class="btn" />
 		&nbsp;
-		<input type="submit" name="delete" value="{L_DELETE_MSG}" class="liteoption" />
+		<input type="submit" name="delete" value="{L_DELETE_MSG}" class="btn" />
 		<div align="right">{JUMPBOX}</div>
 	</div>
 

@@ -34,7 +34,7 @@
 	<td class="row1 row-center" valign="middle">&nbsp;</td>
 	<td class="row2 row-center" valign="middle"><input type="checkbox" name="add_extension_group_check" /></td>
 </tr>
-<tr><td class="cat" colspan="8" height="29"><input type="submit" name="submit" class="liteoption" value="{L_SUBMIT}" /></td></tr>
+<tr><td class="cat" colspan="8" height="29"><input type="submit" name="submit" class="btn" value="{L_SUBMIT}" /></td></tr>
 <tr>
 	<th>&nbsp;{L_EXTENSION_GROUP}&nbsp;</th>
 	<th>&nbsp;{L_SPECIAL_CATEGORY}&nbsp;</th>
@@ -82,8 +82,8 @@
 
 <tr>
 	<td class="cat" colspan="8" height="29">
-	<input type="submit" name="{L_CANCEL}" class="liteoption" value="{L_CANCEL}" onclick="self.location.href='{S_CANCEL_ACTION}'" />
-	<input type="submit" name="submit" class="liteoption" value="{L_SUBMIT}" />
+	<input type="submit" name="{L_CANCEL}" class="btn" value="{L_CANCEL}" onclick="self.location.href='{S_CANCEL_ACTION}'" />
+	<input type="submit" name="submit" class="btn" value="{L_SUBMIT}" />
 	</td>
 </tr>
 </table>

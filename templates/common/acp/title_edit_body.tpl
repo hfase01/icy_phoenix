@@ -16,7 +16,7 @@
 	<td class="row1" width="38%"><span class="genmed"><strong>{L_DATE_FORMAT}</strong></span><br /><span class="gensmall">{L_DATE_FORMAT_EXPLAIN}</span></td>
 	<td class="row2"><input class="post" type="text" name="date_format" size="15" maxlength="255" value="{DATE_FORMAT}" /></td>
 </tr>
-<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 {S_HIDDEN_FIELDS}
 </form>

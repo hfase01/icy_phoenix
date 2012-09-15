@@ -33,7 +33,7 @@
 </tr>
 <!-- END xml_no_feeds -->
 <tr>
-	<td colspan="5" align="center" class="catBottom"><input type="submit" class="liteoption"  name="addxml" value="{L_CREATE_FEED}" /></td>
+	<td colspan="5" align="center" class="catBottom"><input type="submit" class="btn"  name="addxml" value="{L_CREATE_FEED}" /></td>
 </tr>
 </table>
 </form>

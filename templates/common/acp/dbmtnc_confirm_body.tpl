@@ -8,7 +8,7 @@
 		{S_HIDDEN_FIELDS}
 		<span class="gen">
 		<input type="submit" name="confirm" value="{L_YES}" class="mainoption" />&nbsp;&nbsp;
-		<input type="submit" name="cancel" value="{L_NO}" class="liteoption" />
+		<input type="submit" name="cancel" value="{L_NO}" class="btn" />
 		</span>
 	</td>
 </tr>

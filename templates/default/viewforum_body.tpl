@@ -27,7 +27,7 @@
 		<!-- ENDIF -->
 	</td>
 </tr>
-<tr><td align="left" valign="middle"><!-- IF not S_BOT --><span class="btn"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" alt="{L_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" /></a></span><!-- ELSE -->&nbsp;<!-- ENDIF --></td></tr>
+<tr><td align="left" valign="middle"><!-- IF not S_BOT --><a class="btn" href="{U_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" />{L_POST_NEW_TOPIC}</a><!-- ELSE -->&nbsp;<!-- ENDIF --></td></tr>
 </table>
 {BOARD_INDEX}
 
@@ -85,7 +85,7 @@
 <tr>
 	<td class="cat" valign="middle" colspan="7">
 		<span class="genmed" style="float: right; text-align: right; vertical-align: middle; padding-right: 5px; padding-top: 5px;"><!-- IF S_TIMEZONE -->{S_TIMEZONE}<!-- ELSE -->&nbsp;<!-- ENDIF --></span>
-		<div class="gensmall" style="text-align: left; padding-left: 5px; padding-top: 5px;">{L_DISPLAY_TOPICS}:&nbsp;{S_SELECT_TOPIC_DAYS}&nbsp;<input type="submit" class="liteoption jumpbox" value="{L_GO}" name="submit" /></div>
+		<div class="gensmall" style="text-align: left; padding-left: 5px; padding-top: 5px;">{L_DISPLAY_TOPICS}:&nbsp;{S_SELECT_TOPIC_DAYS}&nbsp;<input type="submit" class="btn" value="{L_GO}" name="submit" /></div>
 	</td>
 </tr>
 <!-- IF S_SHOW_ALPHA_BAR and not S_BOT -->
@@ -102,7 +102,7 @@
 <table class="empty-table" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	<td align="left" valign="top" nowrap="nowrap">
-		<!-- IF not S_BOT --><span class="btn"><a href="{U_POST_NEW_TOPIC}"><img src="{POST_IMG}" alt="{L_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" /></a></span><br /><!-- ENDIF -->
+		<!-- IF not S_BOT --><a class="btn" href="{U_POST_NEW_TOPIC}" title="{L_POST_NEW_TOPIC}" />{L_POST_NEW_TOPIC}</a><br /><!-- ENDIF -->
 		<div style="margin-right: 30px;">{IMG_TBL}<div id="icon_description_h" style="display: none;">
 			<table class="forumline" width="100%" cellspacing="0" cellpadding="0">
 			<tr>

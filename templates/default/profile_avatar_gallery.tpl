@@ -3,7 +3,7 @@
 <form action="{S_PROFILE_ACTION}" method="post">
 {CPL_MENU_OUTPUT}
 {IMG_THL}{IMG_THC}<span class="forumlink">{L_AVATAR_GALLERY}</span>{IMG_THR}<table class="forumlinenb" width="100%" cellspacing="0" cellpadding="0">
-	<tr><th colspan="{S_COLSPAN}">{L_CATEGORY}:&nbsp;{S_CATEGORY_SELECT}&nbsp;<input type="submit" class="liteoption" value="{L_GO}" name="avatargallery" /></th></tr>
+	<tr><th colspan="{S_COLSPAN}">{L_CATEGORY}:&nbsp;{S_CATEGORY_SELECT}&nbsp;<input type="submit" class="btn" value="{L_GO}" name="avatargallery" /></th></tr>
 	<!-- BEGIN avatar_row -->
 	<tr>
 		<!-- BEGIN avatar_column -->
@@ -23,7 +23,7 @@
 		<td class="cat" colspan="{S_COLSPAN}">{S_HIDDEN_FIELDS}
 			<input type="submit" name="submitavatar" value="{L_SELECT_AVATAR}" class="btn" />
 			&nbsp;&nbsp;
-			<input type="button" name="cancelavatar" value="{L_RETURN_PROFILE}" class="liteoption" />
+			<input type="button" name="cancelavatar" value="{L_RETURN_PROFILE}" class="btn" />
 		</td>
 	</tr>
 </table>{IMG_TFL}{IMG_TFC}{IMG_TFR}

@@ -11,7 +11,7 @@
 		<option value="all"{ALL_SELECTED}>{L_ALL}</option>
 	</select>
 	&nbsp;&nbsp;
-	<input type="submit" class="liteoption" name="show_submit" value="{L_SHOW}" />
+	<input type="submit" class="btn" name="show_submit" value="{L_SHOW}" />
 	&nbsp;&nbsp;
 	<strong>{L_ORDER}:</strong>
 	<select name="order" class="post">
@@ -19,7 +19,7 @@
 		<option value="DESC">{L_DESCENDING}</option>
 	</select>
 	&nbsp;&nbsp;
-	<input type="submit" class="liteoption" name="sort_submit" value="{L_SORT}" />
+	<input type="submit" class="btn" name="sort_submit" value="{L_SORT}" />
 </span>
 </div>
 </form>
@@ -67,7 +67,7 @@
 <!-- END rowlist -->
 <tr>
 	<td class="cat" align="center" colspan="11">
-		<input type="submit" name="add" value="{L_ADD_A_NEW_BAN}" class="liteoption" />&nbsp;&nbsp;<input type="submit" name="delete_submit" value="{L_DELETE_SELECTED_BANS}" class="liteoption" />
+		<input type="submit" name="add" value="{L_ADD_A_NEW_BAN}" class="btn" />&nbsp;&nbsp;<input type="submit" name="delete_submit" value="{L_DELETE_SELECTED_BANS}" class="btn" />
 	</td>
 </tr>
 </table>

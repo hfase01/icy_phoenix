@@ -40,7 +40,7 @@
 	<td class="catBottom" colspan="6" height="28">&nbsp;</td>
 	<!-- BEGIN switch_admin_or_mod -->
 	<td class="catBottom" align="center">
-	<input type="submit" name="delete_sub" value="{L_DELETE}" class="liteoption"></td>
+	<input type="submit" name="delete_sub" value="{L_DELETE}" class="btn"></td>
 	<!-- END switch_admin_or_mod -->
 </tr>
 </table>

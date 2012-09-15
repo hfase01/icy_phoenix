@@ -21,6 +21,6 @@
 <!-- BEGIN none -->
 <tr><td class="row1 row-center" colspan="4"><span class="gen">{L_NONE}</span></td></tr>
 <!-- END none -->
-<tr><td class="cat" align="center" colspan="4"><input type="submit" name="cancel" class="liteoption" value="{L_CANCEL}" /></td></tr>
+<tr><td class="cat" align="center" colspan="4"><input type="submit" name="cancel" class="btn" value="{L_CANCEL}" /></td></tr>
 </table>
 {S_HIDDEN_FIELDS}</form>

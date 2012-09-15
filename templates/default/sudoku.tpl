@@ -208,7 +208,7 @@
 			<option value="18">8</option>
 			<option value="19">9</option>
 		</select>
-		<input class="liteoption" type="submit" value="{PLACE}" name="input_num" />
+		<input class="btn" type="submit" value="{PLACE}" name="input_num" />
 		</div>
 		</center>
 		</form>

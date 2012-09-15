@@ -153,6 +153,6 @@
 	<td class="row1" width="50%"><b>{L_MOD_33}</b><br />{L_EXP_33}</td>
 	<td class="row1" width="30%"><select name="ctracker_autoban_mails">{S_OUTPUT_33}</select></td>
 </tr>
-<tr><td class="cat" colspan="3" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="3" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>

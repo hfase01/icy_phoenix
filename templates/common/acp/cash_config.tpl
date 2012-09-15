@@ -45,7 +45,7 @@
 	<td class="cat" colspan="2">
 	{S_HIDDEN_FIELDS}
 	<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-	<input type="reset" value="{L_RESET}" class="liteoption" />
+	<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>

@@ -20,7 +20,7 @@
 <tr class="row1 row1h"><td class="row1 row-center" colspan="2"><br /><br /><b>{cms_no_bv.L_NO_BV}</b><br /><br /><br /><br /></td></tr>
 <!-- END cms_no_bv -->
 <tr><td class="spaceRow" colspan="2"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
-<tr><td class="cat" align="center" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" name="save" class="mainoption" value="{L_SUBMIT}" />&nbsp;&nbsp;<input type="reset" name="reset" class="liteoption" value="{L_RESET}" /></td></tr>
+<tr><td class="cat" align="center" colspan="2">{S_HIDDEN_FIELDS}<input type="submit" name="save" class="mainoption" value="{L_SUBMIT}" />&nbsp;&nbsp;<input type="reset" name="reset" class="btn" value="{L_RESET}" /></td></tr>
 </table>
 </form>
 

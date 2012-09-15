@@ -14,7 +14,7 @@
 </tr>
 <tr>
 	<td align="center" class="cat" colspan="2">
-		<input class="liteoption" type="submit" value="{L_ALICENSETITLE}" name="B1" />
+		<input class="btn" type="submit" value="{L_ALICENSETITLE}" name="B1" />
 		<input type="hidden" name="action" value="admin" />
 		<input type="hidden" name="ad" value="license" />
 		<input type="hidden" name="license" value="add" />

@@ -59,7 +59,7 @@
 				<span class="gensmall">
 					{L_DISPLAY_MESSAGES}:
 					<select name="msgdays">{S_SELECT_MSG_DAYS}</select>
-					<input type="submit" value="{L_GO}" name="submit_msgdays" class="liteoption" />
+					<input type="submit" value="{L_GO}" name="submit_msgdays" class="btn" />
 				</span>
 			</td>
 		</tr>
@@ -91,8 +91,8 @@
 			<td class="catBottom" colspan="5" height="28" align="right">
 				{S_HIDDEN_FIELDS}
 				<input type="submit" name="save" value="{L_SAVE_MARKED}" class="mainoption" />&nbsp;
-				<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="liteoption" />&nbsp;
-				<input type="submit" name="deleteall" value="{L_DELETE_ALL}" class="liteoption" />
+				<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="btn" />&nbsp;
+				<input type="submit" name="deleteall" value="{L_DELETE_ALL}" class="btn" />
 			</td>
 		</tr>
 		</table>

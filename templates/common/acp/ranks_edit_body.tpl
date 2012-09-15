@@ -46,6 +46,6 @@ function update_rank(newimage)
 	<td class="row1"><span class="gen">{L_CURRENT_RANK}:</span></td>
 	<td class="row2">{IMAGE_DISPLAY}</td>
 </tr>
-<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 {S_HIDDEN_FIELDS}</form>

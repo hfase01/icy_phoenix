@@ -109,7 +109,7 @@ function checkForm(tab,subtab)
 				<tr>
 					<td class="cat" colspan="2" align="center">
 						<input type="submit" name="submitted" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-						<input type="reset" value="{L_RESET}" onclick="unsetChange();" class="liteoption" />
+						<input type="reset" value="{L_RESET}" onclick="unsetChange();" class="btn" />
 					</td>
 				</tr>
 			</table>

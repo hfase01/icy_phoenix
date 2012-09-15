@@ -8,7 +8,7 @@
 </div>
 <div class="block-empty center">
 	{S_HIDDEN_FIELDS}
-	<input type="submit" name="not_agreed" value="{DO_NOT_AGREE}" class="liteoption" />
+	<input type="submit" name="not_agreed" value="{DO_NOT_AGREE}" class="btn" />
 	<input type="submit" name="agreed" value="{AGREE_OVER_13}" class="mainoption" />
 </div>
 </form>

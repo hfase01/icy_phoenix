@@ -43,10 +43,10 @@
 </tr>
 <tr>
 	<td class="row1" width="40%"><b>{L_EMPTY_CACHE}</b><br /><span class="gensmall">{L_EMPTY_CACHE_EXPLAIN}</span></td>
-	<td class="row2"><input type="submit" name="empty_cache" value="{L_EMPTY_CACHE_BUTTON}" class="liteoption"></td>
+	<td class="row2"><input type="submit" name="empty_cache" value="{L_EMPTY_CACHE_BUTTON}" class="btn"></td>
 	<td class="row2"><span class="gensmall">{L_EMPTY_CACHE_NOTE}</span></td>
 </tr>
-<tr><td class="cat" colspan="3"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="3"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>
 

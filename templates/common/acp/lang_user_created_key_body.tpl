@@ -32,8 +32,8 @@
 <tr>
 	<td class="cat" align="center" colspan="2">
 		<input type="submit" accesskey="s" name="submit" class="mainoption" value="{L_SUBMIT}" />
-		<input type="submit" name="delete" class="liteoption" value="{L_DELETE}" />
-		<input type="submit" name="cancel" class="liteoption" value="{L_CANCEL}" />
+		<input type="submit" name="delete" class="btn" value="{L_DELETE}" />
+		<input type="submit" name="cancel" class="btn" value="{L_CANCEL}" />
 	</td>
 </tr>
 </table>

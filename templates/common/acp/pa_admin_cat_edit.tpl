@@ -68,6 +68,6 @@
 		<input type="radio" name="cat_allow_ratings" value="0" {CHECKED_ALLOWRATINGS_NO} />{L_NO}&nbsp;
 	</td>
 </tr>
-<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="liteoption" type="submit" value="{L_CAT_TITLE}" name="submit"></tr>
+<tr><td align="center" class="cat" colspan="2">{S_HIDDEN_FIELDS}<input class="btn" type="submit" value="{L_CAT_TITLE}" name="submit"></tr>
 </table>
 </form>

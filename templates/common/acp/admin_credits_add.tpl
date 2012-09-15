@@ -46,7 +46,7 @@
 <tr>
 	<td align="center" class="cat" colspan="2">
 	<input type="hidden" name="{S_HIDDEN}" value="{S_HACK_ID}" />
-	<input type="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" />
+	<input type="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>

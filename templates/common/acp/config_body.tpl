@@ -34,7 +34,7 @@
 </tr>
 
 <tr>
-	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="hidden" name="pa_mode" value="update" /><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td>
+	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="hidden" name="pa_mode" value="update" /><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td>
 </tr>
 </table>
 </form>

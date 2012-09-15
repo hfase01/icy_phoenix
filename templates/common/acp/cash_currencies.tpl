@@ -22,7 +22,7 @@
 	<td class="row1 row-center"><input type="submit" name="submit" value="{L_UPDATE}" class="mainoption" /></td>
 	<td class="row2 row-center"><span class="gen"><a href="{cashrow.U_MOVE_UP}">{L_MOVE_UP}</a></span></td>
 	<td class="row1 row-center"><span class="gen"><a href="{cashrow.U_MOVE_DOWN}">{L_MOVE_DOWN}</a></span></td>
-	<td class="row2 row-center"><input type="submit" name="submit" value="{L_DELETE}" class="liteoption" /></td>
+	<td class="row2 row-center"><input type="submit" name="submit" value="{L_DELETE}" class="btn" /></td>
 </tr>
 </form>
 <!-- END cashrow -->
@@ -61,7 +61,7 @@
 <tr>
 	<td class="cat" colspan="2" align="center">
 		<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-		<input type="reset" value="{L_RESET}" class="liteoption" />
+		<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>
@@ -93,7 +93,7 @@
 <tr>
 	<td class="cat" colspan="2" align="center">
 		<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;
-		<input type="reset" value="{L_RESET}" class="liteoption" />
+		<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>

@@ -11,7 +11,7 @@
 	<td class="row2 row-center"><input name="private[]" type="checkbox" {creation_grouprow.PRIVATE_CHECKED} value="{creation_grouprow.GROUP_ID}" /></td>
 </tr>
 <!-- END creation_grouprow -->
-<tr><td class="cat" height="25" align="center" nowrap="nowrap" colspan="2"><input type="reset" value="{L_RESET}" class="liteoption" />&nbsp;&nbsp;&nbsp;<input name="submit" type="submit" value="{L_SUBMIT}" class="mainoption" /></td></tr>
+<tr><td class="cat" height="25" align="center" nowrap="nowrap" colspan="2"><input type="reset" value="{L_RESET}" class="btn" />&nbsp;&nbsp;&nbsp;<input name="submit" type="submit" value="{L_SUBMIT}" class="mainoption" /></td></tr>
 </table>
 
 <p>{L_ALBUM_AUTH_EXPLAIN}</p>
@@ -40,7 +40,7 @@
 </tr>
 <!-- END grouprow -->
 <tr>
-	<td class="cat" height="25" align="center" colspan="8"><input type="reset" value="{L_RESET}" class="liteoption" />&nbsp;&nbsp;&nbsp;<input name="submit" type="submit" value="{L_SUBMIT}" class="mainoption" /></td>
+	<td class="cat" height="25" align="center" colspan="8"><input type="reset" value="{L_RESET}" class="btn" />&nbsp;&nbsp;&nbsp;<input name="submit" type="submit" value="{L_SUBMIT}" class="mainoption" /></td>
 </tr>
 </table>
 </form>

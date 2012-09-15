@@ -29,7 +29,7 @@ function openAllSmiles()
 </tr>
 <tr>
 	<td class="row1" align="right"><strong>{L_NEWS_SMILIES}:</strong>&nbsp;</td>
-	<td class="row2"><input type="radio" name="news_smilies" value="1" {NEWS_SMILIES_YES} /> {L_YES}&nbsp;&nbsp;&nbsp;<input type="radio" name="news_smilies" value="0" {NEWS_SMILIES_NO} /> {L_NO} &nbsp;&nbsp;<input type="button" class="liteoption" name="smiles_button" value="{L_ALL_SMILIES}" onclick="openAllSmiles();"></td>	</tr>
+	<td class="row2"><input type="radio" name="news_smilies" value="1" {NEWS_SMILIES_YES} /> {L_YES}&nbsp;&nbsp;&nbsp;<input type="radio" name="news_smilies" value="0" {NEWS_SMILIES_NO} /> {L_NO} &nbsp;&nbsp;<input type="button" class="btn" name="smiles_button" value="{L_ALL_SMILIES}" onclick="openAllSmiles();"></td>	</tr>
 <tr><td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{S_SUBMIT_VALUE}" class="mainoption" /></td></tr>
 </table>
 </form>

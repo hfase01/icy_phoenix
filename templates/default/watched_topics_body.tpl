@@ -52,7 +52,7 @@ function setCheckboxes(theForm, elementName, isChecked)
 <!-- END topic_watch_row -->
 <!-- BEGIN switch_watched_topics_block -->
 <tr><td class="spaceRow" colspan="8"><img src="{SPACER}" width="1" height="3" alt="" /></td></tr>
-<tr><td colspan="8" class="catBottom"><input type="submit" name="unwatch_topics" class="liteoption" value="{L_STOP_WATCH}" />&nbsp;&nbsp;</td></tr>
+<tr><td colspan="8" class="catBottom"><input type="submit" name="unwatch_topics" class="btn" value="{L_STOP_WATCH}" />&nbsp;&nbsp;</td></tr>
 <!-- END switch_watched_topics_block -->
 <!-- BEGIN switch_no_watched_topics -->
 <tr><td colspan="8" class="row1 row-center"><span class="genmed">{L_NO_WATCHED_TOPICS}</span></td></tr>

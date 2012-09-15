@@ -134,7 +134,7 @@
 	</td>
 </tr>
 <tr>
-	<td class="cat" colspan="2" align="center" id="submitbar">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" onclick="selectAll()" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" />
+	<td class="cat" colspan="2" align="center" id="submitbar">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" onclick="selectAll()" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" />
 	</td>
 </tr>
 </table>

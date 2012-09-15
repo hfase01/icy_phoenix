@@ -41,17 +41,17 @@ function toggle_check_all(main, sub_num)
 <form name="user_permissions" action="{S_USER_PERM}" method="post">
 	<input type="hidden" name="username" value="{USERNAME}" />
 	<input type="hidden" name="mode" value="user" />
-	<input type="submit" name="submit" value="{L_EDIT_PERMISSIONS}" class="liteoption" />
+	<input type="submit" name="submit" value="{L_EDIT_PERMISSIONS}" class="btn" />
 </form>
 <form name="user_profile" action="{S_PROFILE}" method="get">
 	<input type="hidden" name="{S_USER_POST_URL}" value="{USER_ID}" />
 	<input type="hidden" name="mode" value="viewprofile" />
-	<input type="submit" name="submit" value="{L_VIEW_PROFILE}" class="liteoption" />
+	<input type="submit" name="submit" value="{L_VIEW_PROFILE}" class="btn" />
 </form>
 <form name="user_management" action="{S_MANAGEMENT}" method="post">
 	<input type="hidden" name="username" value="{USERNAME}" />
 	<input type="hidden" name="mode" value="edit" />
-	<input type="submit" name="submituser" value="{L_EDIT_USER_DETAILS}" class="liteoption" />
+	<input type="submit" name="submituser" value="{L_EDIT_USER_DETAILS}" class="btn" />
 </form>
 </div>
 
@@ -87,7 +87,7 @@ function toggle_check_all(main, sub_num)
 <tr>
 	<td class="row1 row-center" colspan="3">
 		<input type="submit" name="update_user" value="{L_UPDATE}" class="mainoption" />&nbsp;&nbsp;
-		<input type="reset" value="{L_RESET}" name="reset" class="liteoption" />
+		<input type="reset" value="{L_RESET}" name="reset" class="btn" />
 	</td>
 </tr>
 <tr>
@@ -126,7 +126,7 @@ function toggle_check_all(main, sub_num)
 		<td class="cat" colspan="3" align="center" height="28">
 			<input type="hidden" name="user_id" value="{USER_ID}" />
 			<input type="submit" name="update_user" value="{L_UPDATE}" class="mainoption" />&nbsp;&nbsp;
-			<input type="reset" value="{L_RESET}" name="reset" class="liteoption" />
+			<input type="reset" value="{L_RESET}" name="reset" class="btn" />
 		</td>
 	</tr>
 </table>

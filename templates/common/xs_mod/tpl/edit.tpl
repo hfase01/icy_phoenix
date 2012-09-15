@@ -54,7 +54,7 @@
 	</tr>
 	<tr>
 		<td></td>
-		<td><input type="submit" class="mainoption" value="{L_SUBMIT}" /> <input type="button" class="liteoption" value="{L_XS_FILEMAN_FILTER_CLEAR}" onclick="document.filter.filter_ext.value=''; document.filter.filter_data.value=''; document.filter.submit();" /></td>
+		<td><input type="submit" class="mainoption" value="{L_SUBMIT}" /> <input type="button" class="btn" value="{L_XS_FILEMAN_FILTER_CLEAR}" onclick="document.filter.filter_ext.value=''; document.filter.filter_data.value=''; document.filter.submit();" /></td>
 	</tr>
 	</table>
 	</form></span></td>

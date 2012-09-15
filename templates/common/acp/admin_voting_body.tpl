@@ -65,7 +65,7 @@
 <br />
 <form method="post" name="vote_list" action="{S_MODE_ACTION}">
 <div style="text-align: right; padding: 3px;">
-<span class="genmed"><strong>{L_SELECT_SORT_FIELD}:</strong>&nbsp;{S_FIELD_SELECT}&nbsp;&nbsp;<strong>{L_SORT}:</strong>&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="liteoption" /></span>
+<span class="genmed"><strong>{L_SELECT_SORT_FIELD}:</strong>&nbsp;{S_FIELD_SELECT}&nbsp;&nbsp;<strong>{L_SORT}:</strong>&nbsp;{S_ORDER_SELECT}&nbsp;&nbsp;<input type="submit" name="submit" value="{L_SUBMIT}" class="btn" /></span>
 </div>
 </form>
 

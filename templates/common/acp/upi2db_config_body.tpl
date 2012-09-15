@@ -102,7 +102,7 @@ UPI2DB Version: {UPI2DB_VERSION_NUMBER}</p>
 	<td class="row1"><input name="group_min_regdays[{group_loop.GROUP_ID}]" type="text" value="{group_loop.GROUP_MIN_REGDAYS}" size="4" maxlength="4"></td>
 </tr>
 <!-- END group_loop -->
-<tr><td class="cat" colspan="4" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td></tr>
+<tr><td class="cat" colspan="4" align="center">{S_HIDDEN_FIELDS}<input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td></tr>
 </table>
 </form>
 <script type="text/javascript">

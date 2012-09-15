@@ -6,7 +6,7 @@
 <tr><th colspan="2">{L_BAN_USER}</th></tr>
 <tr>
 	<td class="row1"><strong>{L_USERNAME}:</strong></td>
-	<td class="row2"><input class="post" type="text" class="post" name="username" maxlength="50" size="20" /> <input type="hidden" name="mode" value="edit" />{S_HIDDEN_FIELDS} <input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="liteoption" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes');" /></td>
+	<td class="row2"><input class="post" type="text" class="post" name="username" maxlength="50" size="20" /> <input type="hidden" name="mode" value="edit" />{S_HIDDEN_FIELDS} <input type="submit" name="usersubmit" value="{L_FIND_USERNAME}" class="btn" onclick="window.open('{U_SEARCH_USER}', '_search', 'width=400,height=250,resizable=yes');" /></td>
 </tr>
 <tr><th colspan="2">{L_UNBAN_USER}</th></tr>
 <tr>
@@ -34,7 +34,7 @@
 	<td class="row2">{S_UNBAN_EMAILLIST_SELECT}</td>
 </tr>
 <tr>
-	<td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="liteoption" /></td>
+	<td class="cat" colspan="2" align="center"><input type="submit" name="submit" value="{L_SUBMIT}" class="mainoption" />&nbsp;&nbsp;<input type="reset" value="{L_RESET}" class="btn" /></td>
 </tr>
 </table>
 </form>

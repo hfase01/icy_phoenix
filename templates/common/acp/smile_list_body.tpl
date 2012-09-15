@@ -4,7 +4,7 @@
 <form method="post" action="{S_SMILEY_ACTION}">
 <table class="forumline" width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
-	<td class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="add" value="{L_SMILEY_ADD}" class="mainoption" />&nbsp;&nbsp;<input class="liteoption" type="submit" name="import_pack" value="{L_IMPORT_PACK}">&nbsp;&nbsp;<input class="liteoption" type="submit" name="export_pack" value="{L_EXPORT_PACK}"></td>
+	<td class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="add" value="{L_SMILEY_ADD}" class="mainoption" />&nbsp;&nbsp;<input class="btn" type="submit" name="import_pack" value="{L_IMPORT_PACK}">&nbsp;&nbsp;<input class="btn" type="submit" name="export_pack" value="{L_EXPORT_PACK}"></td>
 </tr>
 <tr>
 	<td class="row1" style="padding: 0px;" valign="top">
@@ -35,7 +35,7 @@
 	</td>
 </tr>
 <tr>
-	<td class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="add" value="{L_SMILEY_ADD}" class="mainoption" />&nbsp;&nbsp;<input class="liteoption" type="submit" name="import_pack" value="{L_IMPORT_PACK}">&nbsp;&nbsp;<input class="liteoption" type="submit" name="export_pack" value="{L_EXPORT_PACK}"></td>
+	<td class="cat">{S_HIDDEN_FIELDS}<input type="submit" name="add" value="{L_SMILEY_ADD}" class="mainoption" />&nbsp;&nbsp;<input class="btn" type="submit" name="import_pack" value="{L_IMPORT_PACK}">&nbsp;&nbsp;<input class="btn" type="submit" name="export_pack" value="{L_EXPORT_PACK}"></td>
 </tr>
 </table>
 </form>

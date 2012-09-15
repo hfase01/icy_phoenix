@@ -25,7 +25,7 @@
 </div>
 
 {S_HIDDEN_FIELDS}
-<!-- IF S_B_EDIT --><input type="submit" name="action_update" value="{L_CMS_SAVE_CHANGES}" class="liteoption" /><!-- ENDIF -->
+<!-- IF S_B_EDIT --><input type="submit" name="action_update" value="{L_CMS_SAVE_CHANGES}" class="btn" /><!-- ENDIF -->
 <!-- IF S_B_ADD -->&nbsp;&nbsp;<input type="submit" name="add" value="{L_B_ADD}" class="mainoption" /><!-- ENDIF -->
 </form>
 

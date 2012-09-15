@@ -95,7 +95,7 @@ function select_switch(status)
 		<tr>
 		<!--
 			<td nowrap="nowrap" align="left" valign="middle"><span class="gensmall">&nbsp;{L_DISPLAY_MESSAGES}:&nbsp;</span></td>
-			<td nowrap="nowrap"><select name="msgdays">{S_SELECT_MSG_DAYS}</select> <input type="submit" value="{L_GO}" name="submit_msgdays" class="liteoption jumpbox" /></td>
+			<td nowrap="nowrap"><select name="msgdays">{S_SELECT_MSG_DAYS}</select> <input type="submit" value="{L_GO}" name="submit_msgdays" class="btn" /></td>
 		-->
 			<td width="100%" align="center" nowrap="nowrap">
 				{S_HIDDEN_FIELDS}
@@ -103,9 +103,9 @@ function select_switch(status)
 				&nbsp;
 				<input type="submit" name="download" value="{L_DOWNLOAD_MARKED}" class="btn-info" />
 				&nbsp;
-				<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="liteoption" style="padding-left: 2px; padding-right: 2px;" />
+				<input type="submit" name="delete" value="{L_DELETE_MARKED}" class="btn" style="padding-left: 2px; padding-right: 2px;" />
 				&nbsp;
-				<input type="submit" name="deleteall" value="{L_DELETE_ALL}" class="liteoption" style="padding-left: 2px; padding-right: 2px;" />
+				<input type="submit" name="deleteall" value="{L_DELETE_ALL}" class="btn" style="padding-left: 2px; padding-right: 2px;" />
 			</td>
 		</tr>
 		</table>
